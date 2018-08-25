@@ -1,10 +1,14 @@
 ---
 layout: page
-title: My website
-subtitle: This is where I will tell my friends way too much about me
+title: Tim Ekeh
+subtitle: PhD Candidate in Applied Mathematics and Theoretical Physics
 use-site-title: true
 ---
+Group: Soft Matter
 
+<p><a href="http://www.damtp.cam.ac.uk/">Dept,of Applied Mathematics and Theoretical Physics</a>,<br>Centre of Mathematical Sciences<br>University of Cambridge<br>Wilberforce Road <br> CB3 0WA, UK</p>
+
+<!--
 <div class="posts-list">
   {% for post in paginator.posts %}
   <article class="post-preview">
@@ -55,7 +59,7 @@ use-site-title: true
    </article>
   {% endfor %}
 </div>
-
+-->
 {% if paginator.total_pages > 1 %}
 <ul class="pager main-pager">
   {% if paginator.previous_page %}
@@ -68,5 +72,5 @@ use-site-title: true
     <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
   </li>
   {% endif %}
-</ul>
+</ul> 
 {% endif %}
