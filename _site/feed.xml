@@ -3,19 +3,53 @@
   <channel>
     <title>Tim Ekeh</title>
     <description>Personal Webpage</description>
-    <link>http://0.0.0.0:4000</link>
-    <atom:link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>First post!</title>
+        <title>Non-Conservative Forces</title>
         <description>
           
-          This is my first post, how exciting!
+          Consider the basic force equation of classical mechanics When is derived from the gradient of a potential , this system is integrable. We have at least one conserved quantity (the Hamiltonian ) and the dynamics is restricted to some surface of constant energy in phase space. Once the Hamiltonian is...
+        </description>
+        <pubDate>Sun, 02 Dec 2018 03:26:58 -0800</pubDate>
+        <link>http://localhost:4000/2018-12-02-non-conservative-forces/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-12-02-non-conservative-forces/</guid>
+      </item>
+    
+      <item>
+        <title>Message Passing in 1D</title>
+        <description>
+          
+          Suppose we have a 1D array of N spins on a ring, which can be either or . Suppose further that we fix one of the previously identical spins such that it is . Now inagine that between each pair of spins is a directed information channel that aims to...
+        </description>
+        <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2018-12-01-message-passing-1d/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-12-01-message-passing-1d/</guid>
+      </item>
+    
+      <item>
+        <title>Title</title>
+        <description>
+          
+          
+
 
         </description>
-        <pubDate>Sat, 25 Aug 2018 00:00:00 -0700</pubDate>
-        <link>http://0.0.0.0:4000/2018-08-25-first/</link>
-        <guid isPermaLink="true">http://0.0.0.0:4000/2018-08-25-first/</guid>
+        <pubDate>Fri, 30 Nov 2018 12:14:19 -0800</pubDate>
+        <link>http://localhost:4000/2018-11-30-template/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-11-30-template/</guid>
+      </item>
+    
+      <item>
+        <title>Recursive Methods in Probability</title>
+        <description>
+          
+          Problems can of course be solved in mutliple ways. Sometimes the natural, methodical solution to a problem is very lengthy, so knowing some tricks is useful. One such trick is recursive reasoning, which can prove useful in certain types of probability problems and puzzles. I like these methods since the...
+        </description>
+        <pubDate>Fri, 23 Nov 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2018-11-23-recursive-methods-in-probability/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-11-23-recursive-methods-in-probability/</guid>
       </item>
     
   </channel>

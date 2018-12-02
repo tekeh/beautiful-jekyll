@@ -43,16 +43,11 @@
       <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
     
   
-	<ul>
-  		{% for post in site.posts %}
-   	 <li>
-      		<a href="{{ post.url }}">{{ post.title }}</a>
-    	</li>
-  		{% endfor %}
-	</ul>
+
   
 
   
+
   
 
     <!-- Facebook OpenGraph tags -->
@@ -63,7 +58,16 @@
   
 
    
-  <meta property="og:description" content="Hello
+  <meta property="og:description" content="
+  {% for post in site.posts %}
+    
+      {{ post.title }} {{ post.date }}
+    
+  {% endfor %}
+
+
+
+
 
 
 
@@ -74,12 +78,12 @@
   <meta property="og:type" content="website" />
 
   
-  <meta property="og:url" content="http://0.0.0.0:4000/blog/" />
-  <link rel="canonical" href="http://0.0.0.0:4000/blog/" />
+  <meta property="og:url" content="http://localhost:4000/blog/" />
+  <link rel="canonical" href="http://localhost:4000/blog/" />
   
 
   
-  <meta property="og:image" content="http://0.0.0.0:4000/img/tim_square.jpg" />
+  <meta property="og:image" content="http://localhost:4000/img/tim_square.jpg" />
   
 
 
@@ -93,7 +97,16 @@
   
 
   
-  <meta name="twitter:description" content="Hello
+  <meta name="twitter:description" content="
+  {% for post in site.posts %}
+    
+      {{ post.title }} {{ post.date }}
+    
+  {% endfor %}
+
+
+
+
 
 
 
@@ -101,7 +114,7 @@
   
 
   
-  <meta name="twitter:image" content="http://0.0.0.0:4000/img/tim_square.jpg" />
+  <meta name="twitter:image" content="http://localhost:4000/img/tim_square.jpg" />
   
 
   
@@ -123,7 +136,7 @@
         <span class="icon-bar"></span>
       </button>
       
-        <a class="navbar-brand" href="http://0.0.0.0:4000">Tim Ekeh</a>
+        <a class="navbar-brand" href="http://localhost:4000">Tim Ekeh</a>
       
     </div>
 
@@ -150,7 +163,7 @@
 	
 	<div class="avatar-container">
 	  <div class="avatar-img-border">
-	    <a href="http://0.0.0.0:4000 ">
+	    <a href="http://localhost:4000 ">
 	      <img class="avatar-img" src="/img/tim_square.jpg" />
 		</a>
 	  </div>
@@ -191,7 +204,25 @@
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <p>Hello</p>
+      <ul>
+  
+    <li>
+      <a href="/2018-12-02-non-conservative-forces/">Non-Conservative Forces</a> 2018-12-02 03:26:58 -0800
+    </li>
+  
+    <li>
+      <a href="/2018-12-01-message-passing-1d/">Message Passing in 1D</a> 2018-12-01 00:00:00 -0800
+    </li>
+  
+    <li>
+      <a href="/2018-11-30-template/">Title</a> 2018-11-30 12:14:19 -0800
+    </li>
+  
+    <li>
+      <a href="/2018-11-23-recursive-methods-in-probability/">Recursive Methods in Probability</a> 2018-11-23 00:00:00 -0800
+    </li>
+  
+</ul>
 
 
 	    
@@ -230,7 +261,7 @@
 
       
       &nbsp;&bull;&nbsp;
-      <a href="http://0.0.0.0:4000">tekeh.github.io</a>
+      <a href="http://localhost:4000">tekeh.github.io</a>
       
 
       
