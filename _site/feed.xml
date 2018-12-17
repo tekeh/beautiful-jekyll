@@ -1,10 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tim Ekeh</title>
+    <title>t.ekeh</title>
     <description>Personal Webpage</description>
     <link>http://localhost:4000</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Effective Noise in Steady State [Graveyard]</title>
+        <description>
+          
+          Suppose we have a Brownian Motion on a ring. The stochastic differential equation can be written in the angular coordinate as Where is a non-random constant and is a Weiner process (White gaussian noise). What is the probability that takes some certain value when evolving under this dynamics? We can...
+        </description>
+        <pubDate>Mon, 17 Dec 2018 10:31:15 -0800</pubDate>
+        <link>http://localhost:4000/2018-12-17-gaussian-decomposition/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-12-17-gaussian-decomposition/</guid>
+      </item>
+    
+      <item>
+        <title>An Integral</title>
+        <description>
+          
+          A function of this form came up while doing calculations on active particle dynamics All the parameters of are non-negative, but the variable can take any real value. The function is defined implicitely in terms of this integral which has no closed form expressions which Mathematica could identify. We can...
+        </description>
+        <pubDate>Mon, 17 Dec 2018 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2018-12-17-an-integral/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-12-17-an-integral/</guid>
+      </item>
+    
+      <item>
+        <title>Some 1A NatSci Extension Problems</title>
+        <description>
+          
+          Here are a collection of some problems to try if you find yourself with spare time Magnetic Monopole A particle with electric charge moving through an elctromagnetic field experiences a Lorentz force Magnetic monopoles are hypothetical particles that produce magnetic fields that are not divergencelss (). The magnetic field from...
+        </description>
+        <pubDate>Wed, 12 Dec 2018 11:08:40 -0800</pubDate>
+        <link>http://localhost:4000/2018-12-12-winter-work/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-12-12-winter-work/</guid>
+      </item>
+    
+      <item>
+        <title>Stochastic Resonance</title>
+        <description>
+          
+          
+
+
+        </description>
+        <pubDate>Wed, 05 Dec 2018 05:52:36 -0800</pubDate>
+        <link>http://localhost:4000/2018-12-05-stochastic-resonance/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-12-05-stochastic-resonance/</guid>
+      </item>
+    
+      <item>
+        <title>Classical Analogue of Spin through Differential Geometry</title>
+        <description>
+          
+          
+
+
+        </description>
+        <pubDate>Wed, 05 Dec 2018 05:52:04 -0800</pubDate>
+        <link>http://localhost:4000/2018-12-05-classical-analogue-of-spin/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-12-05-classical-analogue-of-spin/</guid>
+      </item>
+    
+      <item>
+        <title>LDP on Graphs</title>
+        <description>
+          
+          
+
+
+        </description>
+        <pubDate>Wed, 05 Dec 2018 05:51:22 -0800</pubDate>
+        <link>http://localhost:4000/2018-12-05-large-deviations-on-graphs/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-12-05-large-deviations-on-graphs/</guid>
+      </item>
+    
+      <item>
+        <title>Title</title>
+        <description>
+          
+          
+
+
+        </description>
+        <pubDate>Mon, 03 Dec 2018 02:40:32 -0800</pubDate>
+        <link>http://localhost:4000/2018-12-03-ABPs-v-AOUPs/</link>
+        <guid isPermaLink="true">http://localhost:4000/2018-12-03-ABPs-v-AOUPs/</guid>
+      </item>
     
       <item>
         <title>Non-Conservative Forces</title>
