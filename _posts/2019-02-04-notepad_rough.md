@@ -144,7 +144,7 @@ $$
 0 = \lim_{\epsilon \rightarrow 0 } D \Big( \partial_x m_n \vert^{+} - \partial_x m_n \vert^{-} \Big) 
 $$
 
-For $$\rho$$, both conditions hold. With this condition, let us again reexamine the solution to the FP equation. The dirichlet boundary condition in Eq \ref{eqn:dirichlet} is replaced by a Neumann condition. The first of the Dirichlet conditions concering the density is un changed, but on top of this we also have that all $$ a_n =0 $$ for $$n>0$$. This returns us to the naive solution
+For $$\rho$$, both conditions hold. With this condition, let us again reexamine the solution to the FP equation. The dirichlet boundary condition in Eq \ref{eqn:dirichlet} is replaced by a Neumann condition. The first of the Dirichlet conditions concerning the density is un changed, but on top of this we also have that all $$ a_n =0 $$ for $$n>0$$. This returns us to the naive solution
 
 
 
@@ -153,5 +153,21 @@ $$
 \frac{1}{I_0(\lambda \kappa \mu_r \tau/2) ( x_w + \sqrt{2 \pi D/\lambda \mu} } \exp \Big( -\mu V / D - \lambda \kappa \mu_r \tau \cos(2 \theta) /2  \Big) \\
 \frac{1}{x_w + \sqrt{2 \pi D/\lambda \mu}} \frac{ 1 }{2\pi} 
 \end{cases}
+$$
+
+<h5> ii) Fluxes </h5>
+
+Suppose we seek a solution which contains fluxes, such that
+
+$$
+D \partial_x P + \mu \partial_x V P = \mathcal{L}_x P = \partial_{\theta} f(x, \theta)  \\
+\tau^{-1} \partial_\theta P + \mu_r \partial_\theta U P = \mathcal{L}_{\theta} P = -\partial_x f(x, \theta)  \\
+$$
+
+The usual flux free case is then the case where $$f = $$const. We can solve these individual equations directly (here $$x > x_w$$)
+
+$$
+P(x, \theta)  = \exp(-\mu V /D) \Big[ P(x =x_w, \theta) + \int_{x_w}^{x} \exp( \mu V(x') /D) \partial_{\theta} f(x', \theta) dx'  \Big] \\
+P(x, \theta)  = \exp(-\mu_r \tau U ) \Big[ P( x, \theta = 0) - \int_0^{\theta} \exp( \mu_r \tau U(\theta')) \partial_{x} f(x, \theta') d\theta'  \Big]  \\
 $$
 
