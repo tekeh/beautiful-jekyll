@@ -81,6 +81,19 @@ To check whether these form an exact differential we should calculate the differ
 
 $$ \partial_{\lambda} \langle \partial_{x_w} U \rangle - \partial_{x_w} \langle \partial_{\lambda} U \rangle $$
 
+
+Note that the only way for this to be identically zero we need
+
+$$
+\begin{equation}
+\begin{aligned}
+	&\frac{\partial_{x_w} U }{\partial_\lambda U }= \frac{\partial_{x_w} \rho}{\partial_\lambda \rho} \\
+	\implies &\frac{\partial x_w}{\partial \lambda}\Big)_{U} = \frac{\partial x_w}{\partial \lambda}\Big)_{\rho}
+\end{aligned}
+\end{equation}
+$$
+
+Which would imply further that $$\rho = \rho(U)$$ i.e a state function.
 Using 
 
 $$ d(I_1/I_0)/dx = 1 - \frac{I_1}{x I_0} - \Big( \frac{I_1}{I_0} \Big)^2 $$
@@ -97,9 +110,7 @@ $$
 \end{equation}
 $$
 
-Which is non-zero (although we should expect this given that our overall density is not Boltzmann or entirely flat, so $$ \langle \partial U \rangle \neq \partial F $$)
-
-Clearly this should not be zero so maybe we should review our assumptions
+Which is non-zero. This should be zero in equilibrium so maybe we should review our assumptions
 
 <h5> i) Continuity </h5>
 
@@ -127,13 +138,13 @@ $$
 \tau^{-1} n^2  \int^{x_w + \epsilon}_{x_w - \epsilon} m_n dx  + \frac{\lambda \kappa \mu_r n}{2} \int^{x_w + \epsilon}_{x_w} \big( m_{n-2} - m_{n+2} \big) =  \mu \int^{x_w + \epsilon}_{x_w} \partial_x^2 V m_n dx + \mu \int^{x_w + \epsilon}_{x_w} \partial_x V \partial_x m_n dx + D \Big( \partial_x m_n \vert^{+} - \partial_x m_n \vert^{-} \Big) = 0 
 $$
 
-Which leads to a continutity condition on the <i>gradients</i> of the moments $$ n > 0$$ across a boundary.
+Which leads to a continuity condition on the <i>gradients</i> of the moments $$ n > 0$$ across a boundary, rather than the moments themselves.
 
 $$
 0 = \lim_{\epsilon \rightarrow 0 } D \Big( \partial_x m_n \vert^{+} - \partial_x m_n \vert^{-} \Big) 
 $$
 
-With this condition, let us again reexamine the solution to the FP equation. The dirichlet boundary condition in Eq \ref{eqn:dirichlet} is replaced by a Neumann condition. The first of the Dirichlet conditions concering the density is un changed, but on top of this we also have that all $$ a_n =0 $$ for $$n>0$$. This returns us to the naive solution
+For $$\rho$$, both conditions hold. With this condition, let us again reexamine the solution to the FP equation. The dirichlet boundary condition in Eq \ref{eqn:dirichlet} is replaced by a Neumann condition. The first of the Dirichlet conditions concering the density is un changed, but on top of this we also have that all $$ a_n =0 $$ for $$n>0$$. This returns us to the naive solution
 
 
 
