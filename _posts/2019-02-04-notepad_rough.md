@@ -187,7 +187,7 @@ $$
 The bulk flux therefore obeys the same differential equation as the FP pdf itself within the bulk (by considering mixed partials in $$P$$). In full generality the solution is
 
 $$
-f_b(x,\theta) = \frac{1}{2\pi} f_b^{(0)} ( A + B x) + \frac{1}{\pi} \sum_n  \cos (n\theta)  \Big[ f_b^{(n, +)}\exp(\sqrt{D \tau} x)) + f_b^{(n, -)} \exp(-\sqrt{D \tau} x)) \Big]
+f_b(x,\theta) = \frac{1}{2\pi} f_b^{(0)} ( A + B x) + \frac{1}{\pi} \sum_n  \cos (n\theta)  \Big[ f_b^{(n, +)}\exp( n x/ \sqrt{D \tau} ) + f_b^{(n, -)} \exp(-n x/ \sqrt{D \tau})) \Big]
 $$
 
 They are not the same function however, because $$f_b$$ will have different boundary conditions and constraints.  We collect them below
@@ -217,5 +217,7 @@ $$
 Which would imply further that $$P = P(U)$$ i.e a state function. Generalising this idea, we make an ansatz that $$ P = P(U,V)$$, we can then write the FP equation in the following form (using expressions like $$\partial_V (\partial_x V) = 0$$)
 
 $$
+0 = D (\partial_x V)^2 \partial_V \big( e^{-V} \partial_V \big( e^V P \big) \big) + \tau^{-1} (\partial_\theta U)^2 \partial_U \big( e^{-U} \partial_U \big( e^U P \big) \big) + D \partial_xV \partial_x U \partial_U \partial_V P
+
 0 = D (\partial_x V)^2 \partial_V \big( e^{-V} \partial_V \big( e^V P \big) \big) + \tau^{-1} (\partial_\theta U)^2 \partial_U \big( e^{-U} \partial_U \big( e^U P \big) \big) + D \partial_xV \partial_x U \partial_U \partial_V P
 $$ 
