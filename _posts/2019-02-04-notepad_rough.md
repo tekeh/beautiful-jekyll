@@ -82,18 +82,6 @@ To check whether these form an exact differential we should calculate the differ
 $$ \partial_{\lambda} \langle \partial_{x_w} U \rangle - \partial_{x_w} \langle \partial_{\lambda} U \rangle $$
 
 
-Note that the only way for this to be identically zero we need
-
-$$
-\begin{equation}
-\begin{aligned}
-	&\frac{\partial_{x_w} U }{\partial_\lambda U }= \frac{\partial_{x_w} \rho}{\partial_\lambda \rho} \\
-	\implies &\frac{\partial x_w}{\partial \lambda}\Big)_{U} = \frac{\partial x_w}{\partial \lambda}\Big)_{\rho}
-\end{aligned}
-\end{equation}
-$$
-
-Which would imply further that $$\rho = \rho(U)$$ i.e a state function.
 Using 
 
 $$ d(I_1/I_0)/dx = 1 - \frac{I_1}{x I_0} - \Big( \frac{I_1}{I_0} \Big)^2 $$
@@ -157,17 +145,77 @@ $$
 
 <h5> ii) Fluxes </h5>
 
-Suppose we seek a solution which contains fluxes, such that
+Suppose we seek a solution which contains fluxes, such that within the wall
 
 $$
 D \partial_x P + \mu \partial_x V P = \mathcal{L}_x P = \partial_{\theta} f(x, \theta)  \\
 \tau^{-1} \partial_\theta P + \mu_r \partial_\theta U P = \mathcal{L}_{\theta} P = -\partial_x f(x, \theta)  \\
 $$
 
-The usual flux free case is then the case where $$f = $$const. We can solve these individual equations directly (here $$x > x_w$$)
+In the bulk we'll have
+
+$$
+D \partial_x P  = \partial_{\theta} f_b(x, \theta)  \\
+\tau^{-1} \partial_\theta P = -\partial_x f_b(x, \theta)  \\
+$$
+
+
+The usual flux free case is then the case where $$f (f_b) = $$const. We can solve these individual equations directly (here $$x > x_w$$)
 
 $$
 P(x, \theta)  = \exp(-\mu V /D) \Big[ P(x =x_w, \theta) + \int_{x_w}^{x} \exp( \mu V(x') /D) \partial_{\theta} f(x', \theta) dx'  \Big] \\
 P(x, \theta)  = \exp(-\mu_r \tau U ) \Big[ P( x, \theta = 0) - \int_0^{\theta} \exp( \mu_r \tau U(\theta')) \partial_{x} f(x, \theta') d\theta'  \Big]  \\
 $$
 
+We expect the spatial pdf to be BOltzmann weighted in both cases, so integrating with respect to $$\theta$$ should give us this spatial density. Integratig the second equation then gives
+
+$$
+P(x, \theta)  = \Big[ I_0(\lambda \kappa \mu_r \tau/2) P( x, \theta = 0) -\int^{2\pi}_0 d\theta \exp( -\mu_r \tau U(\theta)) \int_0^{\theta} \exp( \mu_r \tau U(\theta')) \partial_{x} f(x, \theta') d\theta'  \Big]  \\
+$$
+
+This second term must then be equal to $$ \mathcal{A} \exp(-\mu V/D)$$, where $$ \mathcal{A}$$ could be $$0$$.
+
+
+
+In the bulk we have
+
+$$
+D \partial_x P  = \partial_{\theta} f_b(x, \theta)  \\
+\tau^{-1} \partial_\theta P = -\partial_x f_b(x, \theta)  \\
+$$
+
+The bulk flux therefore obeys the same differential equation as the FP pdf itself within the bulk (by considering mixed partials in $$P$$). In full generality the solution is
+
+$$
+f_b(x,\theta) = \frac{1}{2\pi} f_b^{(0)} ( A + B x) + \frac{1}{\pi} \sum_n  \cos (n\theta)  \Big[ f_b^{(n, +)}\exp(\sqrt{D \tau} x)) + f_b^{(n, -)} \exp(-\sqrt{D \tau} x)) \Big]
+$$
+
+They are not the same function however, because $$f_b$$ will have different boundary conditions and constraints.  We collect them below
+
+$$
+\begin{cases}
+ \\
+\frac{1}{x_w + \sqrt{2 \pi D/\lambda \mu}} \frac{ 1 }{2\pi} 
+\end{cases}
+$$
+
+<b> iii) State equation </b>
+
+We expect the work output to be 0 with any quasistatic protocol. Therefore we require that $$ \partial_{\lambda} \langle \partial_{x_w} U \rangle - \partial_{x_w} \langle \partial_{\lambda} U \rangle $$ vanishes. 
+
+Note that the only way for this to be identically zero we need
+
+$$
+\begin{equation}
+\begin{aligned}
+	&\frac{\partial_{x_w} U }{\partial_\lambda U }= \frac{\partial_{x_w} P}{\partial_\lambda P} \\
+	\implies &\frac{\partial x_w}{\partial \lambda}\Big)_{U} = \frac{\partial x_w}{\partial \lambda}\Big)_{\rho}
+\end{aligned}
+\end{equation}
+$$
+
+Which would imply further that $$P = P(U)$$ i.e a state function. Generalising this idea, we make an ansatz that $$ P = P(U,V)$$, we can then write the FP equation in the following form (using expressions like $$\partial_V (\partial_x V) = 0$$)
+
+$$
+0 = D (\partial_x V)^2 \partial_V \big( e^{-V} \partial_V \big( e^V P \big) \big) + \tau^{-1} (\partial_\theta U)^2 \partial_U \big( e^{-U} \partial_U \big( e^U P \big) \big) + D \partial_xV \partial_x U \partial_U \partial_V P
+$$ 
