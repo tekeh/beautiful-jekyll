@@ -27,7 +27,7 @@ $$
 <b>In bulk</b> ($$ U=0 \, V=0 $$) use a series solution
 
 $$ 
-P = \frac{\rho_0}{2\pi} + \frac{1}{\pi} \sum_i a_n \cos n \theta \cosh\Bigg(\frac{n (x - x_w/2)}{\sqrt{D \tau}} \Bigg)
+P = \frac{\rho_0}{2\pi} + \frac{1}{\pi} \sum_i a_n \cos n \theta \cosh\Bigg(\frac{n (x - x_w/2)}{\sqrt{D \tau}} \Bigg) \tag{(1)} \label{eqn:bulk-pdf}
 $$
 
 Where we've used the symmetry about centre of the box.
@@ -187,17 +187,29 @@ $$
 The bulk flux therefore obeys the same differential equation as the FP pdf itself within the bulk (by considering mixed partials in $$P$$). In full generality the solution is
 
 $$
-f_b(x,\theta) = \frac{1}{2\pi} f_b^{(0)} ( A + B x) + \frac{1}{\pi} \sum_n  \cos (n\theta)  \Big[ f_b^{(n, +)}\exp( n x/ \sqrt{D \tau} ) + f_b^{(n, -)} \exp(-n x/ \sqrt{D \tau})) \Big]
+f_b(x,\theta) = \frac{1}{2\pi} f_b^{(0)} ( A + B x) + \frac{1}{\pi} \sum_n  \sin (n\theta)  \Big[ f_b^{(n, +)}\exp( n x/ \sqrt{D \tau} ) + f_b^{(n, -)} \exp(-n x/ \sqrt{D \tau})) \Big]
 $$
 
-They are not the same function however, because $$f_b$$ will have different boundary conditions and constraints.  We collect them below
+They are not the same function however, because $$f_b$$ will have different boundary conditions and constraints.  
+The coefficients of $$f$$ are related to those of $$P$$ ($$a_n$$'s in Eq \ref{eqn:bulk-pdf} in the following way for $$n > 0$$
 
 $$
-\begin{cases}
- \\
-\frac{1}{x_w + \sqrt{2 \pi D/\lambda \mu}} \frac{ 1 }{2\pi} 
-\end{cases}
+f^{(n, \pm)}_b = \pm \frac{a_n}{2\sqrt{D^{-1} \tau}} e^{\mp n x_w/2 \sqrt{D \tau}} \\
+B = 0
 $$
+
+Leading to  ($$A \rightarrow 1$$ wlog)
+
+$$
+f_b(x,\theta) = \frac{1}{2\pi} f_b^{(0)} + \frac{1}{\pi \sqrt{D^{-1} \tau} } \sum_n a_n \sin (n\theta) \sinh \big( \frac{n (x - x_w/2)}{\sqrt{D \tau}} \big)
+$$
+
+We can try a similar analysis on the wall region. It can be shown that $$f$$ obeys the pde
+
+$$
+\tau^{-1}\partial_{\theta}^2 f + D\partial_x^2 f + \mu_r \partial_{\theta} U \partial_{\theta}f + \mu \partial_x V \partial_x f = 0  
+$$
+
 
 <b> iii) State equation </b>
 
@@ -217,7 +229,7 @@ $$
 Which would imply further that $$P = P(U)$$ i.e a state function. Generalising this idea, we make an ansatz that $$ P = P(U,V)$$, we can then write the FP equation in the following form (using expressions like $$\partial_V (\partial_x V) = 0$$)
 
 $$
-0 = D (\partial_x V)^2 \partial_V \big( e^{-V} \partial_V \big( e^V P \big) \big) + \tau^{-1} (\partial_\theta U)^2 \partial_U \big( e^{-U} \partial_U \big( e^U P \big) \big) + D \partial_xV \partial_x U \partial_U \partial_V P
+0 = D (\partial_x V)^2 \partial_V \big( e^{-V} \partial_V \big( e^V P \big) \big) + \tau^{-1} (\partial_\theta U)^2 \partial_U \big( e^{-U} \partial_U \big( e^U P \big) \big) + D \partial_xV \partial_x U \partial_U \partial_V P \\
 
 0 = D (\partial_x V)^2 \partial_V \big( e^{-V} \partial_V \big( e^V P \big) \big) + \tau^{-1} (\partial_\theta U)^2 \partial_U \big( e^{-U} \partial_U \big( e^U P \big) \big) + D \partial_xV \partial_x U \partial_U \partial_V P
 $$ 
