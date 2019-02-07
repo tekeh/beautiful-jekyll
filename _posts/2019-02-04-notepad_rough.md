@@ -204,11 +204,13 @@ $$
 f_b(x,\theta) = \frac{1}{2\pi} f_b^{(0)} + \frac{1}{\pi \sqrt{D^{-1} \tau} } \sum_n a_n \sin (n\theta) \sinh \big( \frac{n (x - x_w/2)}{\sqrt{D \tau}} \big)
 $$
 
-We can try a similar analysis on the wall region. It can be shown that $$f$$ obeys the pde
+$$f_b^{(0)}$$ seems similar to a gauge like freedom, so I suspect it can be set to 0 wlog. We can try a similar analysis on the wall region. It can be shown that $$f$$ obeys the pde
 
 $$
 \tau^{-1}\partial_{\theta}^2 f + D\partial_x^2 f + \mu_r \partial_{\theta} U \partial_{\theta}f + \mu \partial_x V \partial_x f = 0  
 $$
+
+From here we can use seperation of variables to solve this within the wall
 
 
 <b> iii) State equation </b>
