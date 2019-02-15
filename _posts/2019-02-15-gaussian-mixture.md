@@ -53,7 +53,7 @@ $$
 \begin{array}{c|lcr}
 \text{Behaviour} & \rho(x) &  f(\beta) \\
 \hline
-\text{Laplace distribution} & c \exp(-c \vert x \vert )/2  & \propto \exp(-1/2 \beta c^2)/c \beta^2 \\
+\text{Laplace distribution} & c \exp(-c \vert x \vert )/2  & \propto \exp(-c^2/2 \beta)/ \beta^2 \\
  \text{t-distribution} & \propto (1 + x^2/\nu)^{-(\nu + 1)/2} \sim \vert x \vert ^ {-\nu - 1} & \propto \beta^{\nu/2 -1} \exp(-\beta \nu/2)  \\
 \text{Lorentzian} & \delta (x^2 + \delta^2)^{-1}/\pi  & \Gamma(1/2, \delta/\sqrt{2}) \\
 \end{array}
