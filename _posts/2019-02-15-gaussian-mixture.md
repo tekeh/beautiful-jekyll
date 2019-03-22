@@ -53,7 +53,7 @@ $$
 \begin{array}{c|lcr}
 \text{Behaviour} & \rho(x) &  f(\beta) \\
 \hline
-\text{Laplace distribution} & c \exp(-c \vert x \vert )/2  & \propto \exp(-c^2/2 \beta)/ \beta^2 \\
+\text{Laplace distribution} & c \exp(-c \vert x \vert )/2  & \propto \exp(-c^2/2 \beta)/c \beta^2 \\
  \text{t-distribution} & \propto (1 + x^2/\nu)^{-(\nu + 1)/2} \sim \vert x \vert ^ {-\nu - 1} & \propto \beta^{\nu/2 -1} \exp(-\beta \nu/2)  \\
 \text{Lorentzian} & \delta (x^2 + \delta^2)^{-1}/\pi  & \Gamma(1/2, \delta/\sqrt{2}) \\
 \end{array}
@@ -79,7 +79,7 @@ $$
 
 This should be true for all $$x$$ so the integrand identically vanishes. This differential equation can be easily solved to give
 
-$$ F_E(\beta) = \beta^{-3/2} \exp(-c^2/2\beta) \implies f_E  \propto \beta^{-2} \exp(-c^2/2 \beta)$$
+$$ F_E(\beta) \propto \beta^{-3/2} \exp(-c^2/2\beta) \implies f_E  \propto \beta^{-2} \exp(-c^2/2 \beta)$$
 
 Purely positive $$f$$ has some limitations - it's clear that it could not mimic distributions with a local minimum at the origin, for example. There are even stronger limits. A basic fact to consider here is that the Laplace transform of a positive integrable function is always log-concave. If $$g$$ is such a function then directly from <b>Holder's Inequality</b> $$(1/p = \lambda, 1/q = 1 - \lambda)$$ we get
 
