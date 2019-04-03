@@ -7,6 +7,164 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Active Energetics (in progress)</title>
+        <description>
+          
+          Let us call the ABP potential function. This can take various forms depending on the model. Let’s impose that and its derivative is zero at the wall for all The steady state Fokker Plank equation for this system is then Even without the active propulsion, there is still some peculiarity...
+        </description>
+        <pubDate>Mon, 01 Apr 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2019-04-01-active-energetics/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-04-01-active-energetics/</guid>
+      </item>
+    
+      <item>
+        <title>Curl Forces in Cyclic Protocols</title>
+        <description>
+          
+          Suppose we have the followinf Fokker plank equation in a confined system assuming a zero flux in space (from confinement) we can write straight away the equation We can decompose any vector field into a curl-free and divergence components i.e . We can similarly solve Eq \ref{eqn:FP} by splitting for...
+        </description>
+        <pubDate>Sun, 31 Mar 2019 10:27:50 -0700</pubDate>
+        <link>http://localhost:4000/2019-03-31-work-curl-forces/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-03-31-work-curl-forces/</guid>
+      </item>
+    
+      <item>
+        <title>Thermal Beads</title>
+        <description>
+          
+          A simple calculation to help me understand something larger. Suppose there are two beads in between two parallel walls which can move in one dimension perpendicular to the plane of the walls. They are connected together by elastic spring with strength , and each is further connected to the wall...
+        </description>
+        <pubDate>Fri, 22 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2019-03-22-thermal-beads/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-03-22-thermal-beads/</guid>
+      </item>
+    
+      <item>
+        <title>Stress Functions</title>
+        <description>
+          
+          In this post we’ll discuss a certain description of stresses in 2D mechanical systems, which has proved useful in the study of granular systems and other such packings in mechanical equilibrium. It is called the Airy stress function , . Consider the stress tensor of an arbitrary 2D system which...
+        </description>
+        <pubDate>Fri, 22 Mar 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2019-03-22-stress-functions/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-03-22-stress-functions/</guid>
+      </item>
+    
+      <item>
+        <title>Optimal Finite Time Processes for Active Brownian Processes</title>
+        <description>
+          
+          The Fokker Plank is The work done on the system in time is simply Where are the controllable parameters. Following Seifert, we first consider two special cases Example 1: Translational Harmonic Trap Call and . The work becomes Multiplying by x in Eq \ref{eqn:fp} and averaging gives the relation ....
+        </description>
+        <pubDate>Thu, 07 Mar 2019 02:19:42 -0800</pubDate>
+        <link>http://localhost:4000/2019-03-07-active-finite-time/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-03-07-active-finite-time/</guid>
+      </item>
+    
+      <item>
+        <title>Message passing d-dim</title>
+        <description>
+          
+          Previously, a loose connection between informational message passing and ordering in 1D ising spin chains was discussed. We left of wondering about the connection to higher dimensional spin systems. Hypercubic Lattice Using the previous considerations it’s possible to bound the position of the phase transition. suppose we are links away...
+        </description>
+        <pubDate>Thu, 07 Mar 2019 02:18:28 -0800</pubDate>
+        <link>http://localhost:4000/2019-03-07-message-passing-d-dim/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-03-07-message-passing-d-dim/</guid>
+      </item>
+    
+      <item>
+        <title>Title</title>
+        <description>
+          
+          
+
+
+        </description>
+        <pubDate>Thu, 07 Mar 2019 02:17:26 -0800</pubDate>
+        <link>http://localhost:4000/2019-03-07-template/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-03-07-template/</guid>
+      </item>
+    
+      <item>
+        <title>Stochastic Search</title>
+        <description>
+          
+          A basic sort of computatinla problem is that of searching for a specific elemnt within a larger list of elements Many algorithms exist to complete this task, but here we will investigate the usefulness of a certain type of Stochastic Search Algorithm which are algorithms which make use of randomness....
+        </description>
+        <pubDate>Wed, 06 Mar 2019 01:05:31 -0800</pubDate>
+        <link>http://localhost:4000/2019-03-06-stochastic-resonance/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-03-06-stochastic-resonance/</guid>
+      </item>
+    
+      <item>
+        <title>Ginzburg for Levy Flight Rheology</title>
+        <description>
+          
+          See this previous post for a description of the physical set up and problem to be investigated. Approaches The mean field arguments and models siplify a calculation by ignoring the spatial structure present. To consider the effect of spatial information, we can introduce small, position dependent fluctuations and see how...
+        </description>
+        <pubDate>Mon, 04 Mar 2019 12:53:06 -0800</pubDate>
+        <link>http://localhost:4000/2019-03-04-ginzburg-levy/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-03-04-ginzburg-levy/</guid>
+      </item>
+    
+      <item>
+        <title>Title</title>
+        <description>
+          
+          Basic Model Imagine a stochastic reset of a certain type. Each site of our rheologicla material has a stress associtaed with it, but due to mechanical noise (rather than thermal fluctations) the stress at each site is going to fluctuate according to some effective Stochastic ODE. I.e for each site...
+        </description>
+        <pubDate>Thu, 21 Feb 2019 03:10:46 -0800</pubDate>
+        <link>http://localhost:4000/2019-02-21-resets/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-02-21-resets/</guid>
+      </item>
+    
+      <item>
+        <title>Rheology with Levy Flights</title>
+        <description>
+          
+          Premise I recently came across a paper which investigates rheological properties of a material using a stochastic Levy flight process. To construct this mean field theory, it first starts by considering discretised space, with each cell/block/site taking some local stress value . As the elastic system undergoes relaxation, or local...
+        </description>
+        <pubDate>Thu, 21 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2019-02-21-rheology-levy/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-02-21-rheology-levy/</guid>
+      </item>
+    
+      <item>
+        <title>Integrals over All Directions</title>
+        <description>
+          
+          
+
+
+        </description>
+        <pubDate>Mon, 18 Feb 2019 07:08:58 -0800</pubDate>
+        <link>http://localhost:4000/2019-02-18-angular-averages/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-02-18-angular-averages/</guid>
+      </item>
+    
+      <item>
+        <title>Gaussian Mixtures</title>
+        <description>
+          
+          Arguably one of the simplest, nicest to work with distributions is that of a Gaussian. Within the field of stochastic ODEs, the common stochastic noise (the Weiner process) is simply a Guassian distributed point process. But depending on the system in question, a systems noise could be distributed differently. Some...
+        </description>
+        <pubDate>Fri, 15 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2019-02-15-gaussian-mixture/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-02-15-gaussian-mixture/</guid>
+      </item>
+    
+      <item>
+        <title>topic ideas</title>
+        <description>
+          
+          Roughly in order of interest. There are other things of interest but these are just possible projects/vague directions i could identify Upper Critical Dimension (UCD) for Mean Field Rheological Models Background Jie Lin and Wyart published Mean Field Description of Plastic Flow in Amorphous Solids , where they calculated an...
+        </description>
+        <pubDate>Wed, 13 Feb 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2019-02-13-topics/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-02-13-topics/</guid>
+      </item>
+    
+      <item>
         <title>ABP pdf</title>
         <description>
           
@@ -18,17 +176,6 @@
       </item>
     
       <item>
-        <title>Gaussian Mixtures</title>
-        <description>
-          
-          Arguably one of the simplest, nicest to work with distributions is that of a Gaussian. Within the field of stochastic ODEs, the common stochastic noise (the Weiner process) is simply a Guassian distributed point process. But depending on the system in question, a systems noise could be distributed differently. Some...
-        </description>
-        <pubDate>Wed, 30 Jan 2019 09:18:21 -0800</pubDate>
-        <link>http://localhost:4000/2019-01-30-gaussian-decomp/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-01-30-gaussian-decomp/</guid>
-      </item>
-    
-      <item>
         <title>Title</title>
         <description>
           
@@ -37,39 +184,6 @@
         <pubDate>Wed, 30 Jan 2019 09:09:47 -0800</pubDate>
         <link>http://localhost:4000/2019-01-30-brownian-ring/</link>
         <guid isPermaLink="true">http://localhost:4000/2019-01-30-brownian-ring/</guid>
-      </item>
-    
-      <item>
-        <title>Levy Flights and Non Universality</title>
-        <description>
-          
-          I recently came across a paper which investigates rheological properties of a material using a stochastic Levy flight process. It comes down to considering a system described by the following dynamics (plus some resetting) Where is a noise, although not the usual White Gaussian type. Although , takes values according...
-        </description>
-        <pubDate>Tue, 29 Jan 2019 11:07:29 -0800</pubDate>
-        <link>http://localhost:4000/2019-01-29-levy-flight-rheology/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-01-29-levy-flight-rheology/</guid>
-      </item>
-    
-      <item>
-        <title>Optimal Finite Time Processes for Active Brownian Processes</title>
-        <description>
-          
-          The Fokker Plank is The work done on the system in time is simply Where are the controllable parameters. Following Seifert, we first consider two special cases Example 1: Translational Harmonic Trap Call and . The work becomes Multiplying by x in Eq \ref{eqn:fp} and averaging gives the relation ....
-        </description>
-        <pubDate>Fri, 04 Jan 2019 05:16:01 -0800</pubDate>
-        <link>http://localhost:4000/2019-01-04-active-finite-time/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-01-04-active-finite-time/</guid>
-      </item>
-    
-      <item>
-        <title>Message passing d-dim</title>
-        <description>
-          
-          Previously, a loose connection between informational message passing and ordering in 1D ising spin chains was discussed. We left of wondering about the connection to higher dimensional spin systems. Hypercubic Lattice Using the previous considerations it’s possible to bound the position of the phase transition. suppose we are links away...
-        </description>
-        <pubDate>Fri, 21 Dec 2018 08:55:45 -0800</pubDate>
-        <link>http://localhost:4000/2018-12-21-message-passing-d-dim/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-12-21-message-passing-d-dim/</guid>
       </item>
     
       <item>
@@ -106,19 +220,6 @@
       </item>
     
       <item>
-        <title>Stochastic Resonance</title>
-        <description>
-          
-          
-
-
-        </description>
-        <pubDate>Wed, 05 Dec 2018 05:52:36 -0800</pubDate>
-        <link>http://localhost:4000/2018-12-05-stochastic-resonance/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-12-05-stochastic-resonance/</guid>
-      </item>
-    
-      <item>
         <title>LDP on Graphs</title>
         <description>
           
@@ -129,65 +230,6 @@
         <pubDate>Wed, 05 Dec 2018 05:51:22 -0800</pubDate>
         <link>http://localhost:4000/2018-12-05-large-deviations-on-graphs/</link>
         <guid isPermaLink="true">http://localhost:4000/2018-12-05-large-deviations-on-graphs/</guid>
-      </item>
-    
-      <item>
-        <title>Title</title>
-        <description>
-          
-          
-
-
-        </description>
-        <pubDate>Mon, 03 Dec 2018 02:40:32 -0800</pubDate>
-        <link>http://localhost:4000/2018-12-03-ABPs-v-AOUPs/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-12-03-ABPs-v-AOUPs/</guid>
-      </item>
-    
-      <item>
-        <title>Non-Conservative Forces</title>
-        <description>
-          
-          Consider the basic force equation of classical mechanics When is derived from the gradient of a potential , this system is integrable. We have at least one conserved quantity (the Hamiltonian ) and the dynamics is restricted to some surface of constant energy in phase space. Once the Hamiltonian is...
-        </description>
-        <pubDate>Sun, 02 Dec 2018 03:26:58 -0800</pubDate>
-        <link>http://localhost:4000/2018-12-02-non-conservative-forces/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-12-02-non-conservative-forces/</guid>
-      </item>
-    
-      <item>
-        <title>Message Passing in 1D</title>
-        <description>
-          
-          Suppose we have a 1D array of N spins on a ring, which can be either or . Suppose further that we fix one of the previously identical spins such that it is . Now inagine that between each pair of spins is a directed information channel that aims to...
-        </description>
-        <pubDate>Sat, 01 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2018-12-01-message-passing-1d/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-12-01-message-passing-1d/</guid>
-      </item>
-    
-      <item>
-        <title>Title</title>
-        <description>
-          
-          
-
-
-        </description>
-        <pubDate>Fri, 30 Nov 2018 12:14:19 -0800</pubDate>
-        <link>http://localhost:4000/2018-11-30-template/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-11-30-template/</guid>
-      </item>
-    
-      <item>
-        <title>Recursive Methods in Probability</title>
-        <description>
-          
-          Problems can of course be solved in mutliple ways. Sometimes the natural, methodical solution to a problem is very lengthy, so knowing some tricks is useful. One such trick is recursive reasoning, which can prove useful in certain types of probability problems and puzzles. I like these methods since the...
-        </description>
-        <pubDate>Fri, 23 Nov 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2018-11-23-recursive-methods-in-probability/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-11-23-recursive-methods-in-probability/</guid>
       </item>
     
   </channel>

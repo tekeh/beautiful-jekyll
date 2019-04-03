@@ -12,7 +12,3 @@ title: Blog
 </ul>
 
 
-
-
-
-

@@ -127,23 +127,16 @@ $$
 The LHS can be quickly computed
 
 $$
-\mathcal{L}_1 \mathcal{P}_0 = \frac{\phi_1 \mu}{\tau D^2} \Big( \frac{\mu \kappa}{D} ( 1 - \cos 4 \theta ) \phi_1 - 4 \kappa \cos 2 \theta \Big) \mathcal{P}_0\\
+\mathcal{L}_1 \mathcal{P}_0 = \frac{\phi_1 \mu}{\tau D^2} \Big( \frac{\mu \kappa}{D} ( 1 - \cos 4 \theta ) \phi_1 - 4 \kappa \cos 2 \theta \Big) \mathcal{P}_0 \equiv ( a_0 + a_2 \cos 2 \theta + a_4 \cos 4 \theta )\mathcal{P}_0 \\
 \text{where} \\
 \mathcal{L}_1 f = \frac{\mu}{\tau D^2}  \partial_{\theta} \Big( \partial_{\theta} \phi f \Big)
 $$
 
-We can then expand the first order correction to the distribution as a fourier series $$ \mathcal{P}_1 = a_0/(2 \pi) + \pi^{-1} \sum a_n \cos (n \theta )$$. We can then compare the coefficients 
+We can then expand the first order correction to the distribution as a fourier series $$ \mathcal{P}_1 = \rho^{\epsilon}/(2 \pi) + \pi^{-1} \sum m_n^{\epsilon} \cos (n \theta )$$. We can then compare the coefficients 
 
 $$
-\partial_x \Big( \partial_x m_n + \frac{1}{T} \partial_x \phi_1 m_n + \frac{\kappa}{2} ( m_{n+2} + m_{n-2} ) \Big) - \frac{n^2}{\tau D} + \frac{2 n \kappa}{\tau D T} \phi_1 (m_{n+2} - m_{n-2}) \Big) \\
-
-= \begin{cases}
- \\
- \\ 
- \\
-
-\end{cases}
-
+\partial_x \Big( \partial_x m^{\epsilon}_n + \frac{1}{T} \partial_x \phi_1 \big[ m^{\epsilon}_n + \frac{\kappa}{2} ( m^{\epsilon}_{n+2} + m^{\epsilon}_{n-2} ) \big] \Big) - \frac{n^2}{\tau D} + \frac{2 n \kappa}{\tau D T} \phi_1 (m^{\epsilon}_{n+2} - m^{\epsilon}_{n-2}) \Big) \\
+=  a_0 m_n + \frac{a_2}{2} ( m_{n-2} + m_{n+2} ) + \frac{a_4}{2} ( m_{n-4} + m_{n+4} ) \tag{3} \label{eqn:moments} 
 $$
 
 We wish to calculate the particle number
@@ -158,7 +151,8 @@ $$
 \end{equation}
 $$
 
-Integrating Eq \ref{eqn:pertubative-pde} over angles gives the following relation
+Using Eq \ref{eqn:moments} with $$n = 0$$ gives 
+
 
 $$
 2 \pi \frac{\phi_1^2 \mu^2 \kappa }{\tau D^3} = \partial_x \Big( \frac{\mu}{D} \partial_x \phi_1 ( \kappa a_2 + \rho_1 ) + \partial_x \rho_1 \Big)
