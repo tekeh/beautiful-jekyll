@@ -7,6 +7,61 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Integrals over Solid Angles</title>
+        <description>
+          
+          Oftentimes we must do some form of average to calculate an expected quantity. In this post we’ll consider doing angular averages of scalar functions of vectors in various dimensions. We’ll first consider integrals of the form where the integration domain is over all directions the unit vector can take. These...
+        </description>
+        <pubDate>Sun, 28 Jul 2019 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2019-07-28-angular-averaged/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-07-28-angular-averaged/</guid>
+      </item>
+    
+      <item>
+        <title>Hyperuniform Structure</title>
+        <description>
+          
+          Suspect Calculation Let be the total density of particles and the density of active particles. The initial model for this dynamics give Using the first equation we FT to yield Integrating up and averaging we can then get the expressions At this point we assume a scaling hypothesis of the...
+        </description>
+        <pubDate>Thu, 20 Jun 2019 08:54:23 -0700</pubDate>
+        <link>http://localhost:4000/2019-06-20-elsens-calc/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-06-20-elsens-calc/</guid>
+      </item>
+    
+      <item>
+        <title>Periodically Sheared Amorphous Systems</title>
+        <description>
+          
+          Background/Priors Periodically sheared repulsive circles undergo a few interesting Non-equilibrium/Off-equilibrium transitions Can be modelled by the following Langevin equations ( Kawasaki and Berthier ). is the periodic shear rate and U describes some interaction potential between the particles. No further hydrodynamics involved - the relaxation time of the flow field...
+        </description>
+        <pubDate>Thu, 16 May 2019 02:10:24 -0700</pubDate>
+        <link>http://localhost:4000/2019-05-16-meeting__MEC/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-05-16-meeting__MEC/</guid>
+      </item>
+    
+      <item>
+        <title>Absorbing State Transitions</title>
+        <description>
+          
+          An absorbing state (AS) is a state which can not be escaped once entered. If we imagine a Markov chain, then the absorbing state is one which has no outgoing transitions. AS transitions are an example of a non-equilibrium phase transition. In analogy to equilibrium phase transisitions, we can define...
+        </description>
+        <pubDate>Fri, 03 May 2019 06:04:05 -0700</pubDate>
+        <link>http://localhost:4000/2019-05-03-absorbing-state/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-05-03-absorbing-state/</guid>
+      </item>
+    
+      <item>
+        <title>Stochastic Search</title>
+        <description>
+          
+          aaa A basic sort of computatinla problem is that of searching for a specific elemnt within a larger list of elements Many algorithms exist to complete this task, but here we will investigate the usefulness of a certain type of Stochastic Search Algorithm which are algorithms which make use of...
+        </description>
+        <pubDate>Wed, 03 Apr 2019 07:01:55 -0700</pubDate>
+        <link>http://localhost:4000/2019-04-03-stochastic-resonance/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-04-03-stochastic-resonance/</guid>
+      </item>
+    
+      <item>
         <title>Active Energetics (in progress)</title>
         <description>
           
@@ -86,17 +141,6 @@
       </item>
     
       <item>
-        <title>Stochastic Search</title>
-        <description>
-          
-          A basic sort of computatinla problem is that of searching for a specific elemnt within a larger list of elements Many algorithms exist to complete this task, but here we will investigate the usefulness of a certain type of Stochastic Search Algorithm which are algorithms which make use of randomness....
-        </description>
-        <pubDate>Wed, 06 Mar 2019 01:05:31 -0800</pubDate>
-        <link>http://localhost:4000/2019-03-06-stochastic-resonance/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-03-06-stochastic-resonance/</guid>
-      </item>
-    
-      <item>
         <title>Ginzburg for Levy Flight Rheology</title>
         <description>
           
@@ -127,19 +171,6 @@
         <pubDate>Thu, 21 Feb 2019 00:00:00 -0800</pubDate>
         <link>http://localhost:4000/2019-02-21-rheology-levy/</link>
         <guid isPermaLink="true">http://localhost:4000/2019-02-21-rheology-levy/</guid>
-      </item>
-    
-      <item>
-        <title>Integrals over All Directions</title>
-        <description>
-          
-          
-
-
-        </description>
-        <pubDate>Mon, 18 Feb 2019 07:08:58 -0800</pubDate>
-        <link>http://localhost:4000/2019-02-18-angular-averages/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-02-18-angular-averages/</guid>
       </item>
     
       <item>
@@ -195,41 +226,6 @@
         <pubDate>Tue, 18 Dec 2018 12:20:58 -0800</pubDate>
         <link>http://localhost:4000/2018-12-18-classical-analogue-of-spin/</link>
         <guid isPermaLink="true">http://localhost:4000/2018-12-18-classical-analogue-of-spin/</guid>
-      </item>
-    
-      <item>
-        <title>An Integral</title>
-        <description>
-          
-          A function of this form came up while doing calculations on active particle dynamics All the parameters of are non-negative, but the variable can take any real value. The function is defined implicitely in terms of this integral which has no closed form expressions which Mathematica could identify. We can...
-        </description>
-        <pubDate>Mon, 17 Dec 2018 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2018-12-17-an-integral/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-12-17-an-integral/</guid>
-      </item>
-    
-      <item>
-        <title>Some 1A NatSci Extension Problems</title>
-        <description>
-          
-          Here are a collection of some problems to try if you find yourself with spare time Magnetic Monopole A particle with electric charge moving through an elctromagnetic field experiences a Lorentz force Magnetic monopoles are hypothetical particles that produce magnetic fields that are not divergencelss (). The magnetic field from...
-        </description>
-        <pubDate>Wed, 12 Dec 2018 11:08:40 -0800</pubDate>
-        <link>http://localhost:4000/2018-12-12-winter-work/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-12-12-winter-work/</guid>
-      </item>
-    
-      <item>
-        <title>LDP on Graphs</title>
-        <description>
-          
-          
-
-
-        </description>
-        <pubDate>Wed, 05 Dec 2018 05:51:22 -0800</pubDate>
-        <link>http://localhost:4000/2018-12-05-large-deviations-on-graphs/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-12-05-large-deviations-on-graphs/</guid>
       </item>
     
   </channel>
