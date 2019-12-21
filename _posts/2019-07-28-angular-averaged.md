@@ -116,6 +116,20 @@ $$
 \end{equation}
 $$
 
+Indeed we can work out the solutions for any $$d > 1$$
+
+$$
+\begin{equation}
+
+\langle e^{\bf{ c \cdot n}} \rangle = \frac{2^{d/2 - 1} \Gamma(d/2)}{c^{d/2 - 1}} I_{d/2 - 1} (c)
+\end{equation}
+$$
+
+where $$\Gamma$$ is the Gamma function. The figure below shows agreement between the analytic results and evaluation of $$ \langle e^{\bf{ c \cdot n}} \rangle  $$ via sampling points on a sphere, for some small values of $$d$$. 
+
+![Numerical tests](/img/ang_avg_expplane.png)
+
+
 Higher order tensors should follow the same ideas - the averaged quantities should only depend on the (in general non-linear) invariants of the tensor. Quantities like
 
 $$
@@ -125,3 +139,7 @@ $$
 $$
 
 will be considered in a later post (i.e when i get to it).
+
+References:
+
+[1] NIST Digital Library of Mathematical Functions
