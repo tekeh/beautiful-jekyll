@@ -15,7 +15,7 @@ I like science.
 
 **Presentations**
 - _DAMTP Statistical Physics and Soft Matter Seminar (2018)_ - "Designing Active Macroscopic Heat Engines"
-- _NSTP Research Symposium (2017)_ - "Simulation of Arbitrary Grain Boundaries in Mettalic Crystals)
+- _NSTP Research Symposium (2017)_ - "Simulation of Arbitrary Grain Boundaries in Metallic Crystals)
 
 
 **Code Packages**
