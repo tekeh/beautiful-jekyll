@@ -13,4 +13,10 @@ I like science.
 
 - Adhikari, R., Austen Bolitho, Fernando Caballero, Michael E. Cates, Jakub Dolezal, **T. Ekeh**, Jules Guioth et al. "Inference, prediction and optimization of non-pharmaceutical interventions using compartment models: the PyRoss library." arXiv preprint arXiv:2005.09625 (2020).
 
+**Presentations**
+- _DAMTP Statistical Physics and Soft Matter Seminar (2018)_ - "Designing Active Macroscopic Heat Engines"
+- _NSTP Research Symposium (2017)_ - "Simulation of Arbitrary Grain Boundaries in Mettalic Crystals)
 
+
+**Code Packages**
+- [PyRoss](https://github.com/rajeshrinet/pyross) (contributor)
