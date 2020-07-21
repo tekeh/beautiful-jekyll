@@ -39,25 +39,43 @@ f_{d}({\bf H}) = e^{H_{kk}/d} \int e^{T_{ij} n_{i} n_{j}} \frac{d\Omega^d_{\bf n
 $$ 
 
 
-The first thing we should do is diagonalise the quadratic form to yield
+Assuming $$\bf T$$ is normal, the next thing to do is diagonalise the quadratic form to yield
 
 $$
- f_{d} = \int e^{ \sum_{i=1}^d \lambda_i n_i^2} \frac{d\Omega^d_{\bf n}}{S_{d}}
+ f_{d}({\bf T}) = \int e^{ \sum_{i\neq j}^d \lambda_i (n_i^2 - n_j^2)} \frac{d\Omega^d_{\bf n}}{S_{d}}
 $$ 
 
-Where again $$\lambda_i$$ denote the eigenvalues of $$\bf T$$ (and thus $$\bf H$$). Note that we can easily see that
+Where again $$\lambda_i$$ denote the eigenvalues of $$\bf T$$ (and thus $$\bf H$$, up to a linear transformation). The appearance of the peculiar $$-n_j^2$$ is to enforce the traceless-ness of $$\bf T$$. Note that we can easily see that ($$\partial_k \equiv \partial_{\lambda_k}$$)
 
 $$
-\sum_k \partial_{\lambda_k} f_{d} = f_{d} \label{eq:plane-pde} \tag{2}
+\sum_{k=1}^{d-1} \partial_{k} f_{d} = f_{d}  - (d+1) \int n_j^2 e^{ \sum_{i\neq j}^d \lambda_i (n_i^2 - n_j^2)} \frac{d\Omega^d_{\bf n}}{S_{d}} \label{eq:plane-pde} \tag{2}
 $$ 
 
-Due to $${\bf n}$$ being of unit magnitude. We can also see that
+The result should clearly be independent of $$j$$. Already it looks like diagonalising too soon has led us down an annoying path.
+
+Let us return to the non diagonlised expression for $$f_d({\bf T})$$. Due to $${\bf n}$$ being of unit magnitude, we derive 2 expressions:
 
 $$
+\begin{equation}
  \frac{\partial}{\partial T_{km}} \frac{\partial f_{d}({\bf T})}{\partial T_{km}} \equiv \frac{\partial }{\partial {\bf T}} : \frac{\partial f_{d}({\bf T})}{\partial {\bf T}} = f_d({\bf T})
+\end{equation}
 $$
 
-And so we seem to get a $$d^2$$ version of the Laplacian (although this equation is actually a consequence of the Eq $$\ref{eq:plane-pde}$$ and contains no new information). This could in principle be reduced by considering the principal frame.
+$$
+\begin{equation}
+ \frac{\partial f_{d}({\bf T})}{\partial T_{kk}} = f_d({\bf T})
+\end{equation}
+$$
+
+A first order and second order equation. The first order equation is merely telling us that $$f_d$$ has a factor like $$e^{T_{kk}/d} = 1$$, so isn't so interesting. Indeed, this was similar to the contribution we separated out from the begining when decomposing our original $${\bf H}$$. The second order one has more structure to unpack. If we consider this in the principal frame then we get another differential equation governing $$f_d$$ 
+
+$$
+\sum_{i\neq j}^d  \partial_i^2 f_d = f_d
+$$
+
+And so we get some of the laplacian again. Not that unlike the case in the previous post, where we took a derivative in a vector's components, here the inteesting invariant is not the sum square of the components of the Laplacian. The exception is 2-dim, where $$\lambda_1 = -\lambda_2 \equiv \lambda$$ and so $$\sqrt{\lambda_1^2 + \lambda_2^2} = 2^{1/2} \lambda$$, so the "radial" variable contains all the information you would need. This explains how $$I_0(\lambda)$$ arose in the explicit calculation above in 2-dim; it is the solution to the 2-dim radial Helmholtz equation.
+
+For $$d>2$$ the correct variables to use are not as straight forward to deduce. The typical coordinate systems you could define in d-dim (cartesian, radial etc) are not the most natural choice, but could be used in the standard separation of variables way to yield a series solution. In that sens the problem is solved - you just need to apply the boundary conditions afterword.
 
 From here it seems hard to proceed. We can say some basic things, such as that $$f_d$$ is obviously bounded by the range of eigenvalues
 

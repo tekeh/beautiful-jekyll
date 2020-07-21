@@ -44,20 +44,20 @@ To evaluate the coefficients is fairly easy, we merely choose any easy to calcul
 $$
 \begin{equation}
 \begin{aligned}
-	 \int n_{1} n_{1} ...n_{1} n_{1} \frac{d \Omega_n}{2 \pi} &= \mathcal{A}_{2m} \begin{pmatrix} 2m \\ 2 \end{pmatrix} \\
+	 \int n_{1} n_{1} ...n_{1} n_{1} \frac{d \Omega_n}{2 \pi} &= m^{-1} \mathcal{A}_{2m} \begin{pmatrix} 2m \\ 2 \end{pmatrix} \\
 		&= \int ( \cos \theta)^{2m} \frac{d\theta}{2\pi} \\
-		 \implies \mathcal{A}_{2m} = \frac{1}{2^{2m}} \frac{ \begin{pmatrix} 2m \\ m \end{pmatrix}  }{\begin{pmatrix} 2m \\ 2 \end{pmatrix} } \\
+		 \implies \mathcal{A}_{2m} = \frac{m}{2^{2m}} \frac{ \begin{pmatrix} 2m \\ m \end{pmatrix}  }{\begin{pmatrix} 2m \\ 2 \end{pmatrix} } \\
 \end{aligned}
 \end{equation}
 $$
 
-Now we can $$f_{\Pi_2m}$$.
+Now we can evaluate  $$f_{\Pi_{2m}}$$.
 
 $$
 \begin{equation}
 \begin{aligned}
 	\langle	f_{\Pi_n}({ {\bf a}_i} ) \rangle &= \int f( {\bf{a_1}}, {\bf{ a_2}}, .., {\bf{ n}}) \frac{d \Omega_n}{2 \pi} \\
-		&= \frac{1}{2^{n+1}} \frac{ \begin{pmatrix} 2m \\ m \end{pmatrix}  }{\begin{pmatrix} 2m \\ 2 \end{pmatrix} } \times ( \text{sum of all possible dot product pairs between distinct vectors})  \\
+		&= \mathcal{A}_{2m} \times ( \text{sum of all possible dot product pairs})  \\
 \end{aligned}
 \end{equation}
 $$
