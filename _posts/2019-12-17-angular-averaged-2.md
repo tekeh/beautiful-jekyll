@@ -9,13 +9,15 @@ math: true
 
 <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 
-In a [previous post](angular-averaged) we considered averaging quantities built from tensors over all angles. We know wish to extend the ides in that post to integrals of the form
+In a [previous post](2019-07-28-angular-averaged) we considered averaging quantities built from tensors over all angles. We know wish to extend the ideas in that post to integrals of the form
 
 $$ 
 \langle e^{\bf n^T H n} \rangle = \int e^{H_{ij} n_i n_j} \frac{d\Omega^d_{\bf n}}{S_d} = f_d({\bf H})
 $$
 
-where $$ H_{ij} $$ is a second rank tensor, symmetric without loss of generality. Ideally will would like to reason what the solution looks like in arbitrary dimension. Specific solutions can sometimes be worked out directly. For exmaple in $$d = 2$$ we can diagonalise the quadratic form in the exponent (it is a scalar and invariant to the choice of basis, and the integration measure doesn't change under a rotation of the axes)
+where $$ H_{ij} $$ is a second rank tensor, symmetric without loss of generality. Ideally, we would like to reason what the solution looks like in arbitrary dimension. 
+
+Specific solutions can sometimes be worked out directly. For exmaple in $$d = 2$$ we can diagonalise the quadratic form in the exponent (it is a scalar and invariant to the choice of basis, and the integration measure doesn't change under a rotation of the axes)
 
 $$
 \begin{equation} \label{eq:f2} \tag{1}
@@ -33,7 +35,7 @@ where $$\lambda_{1, 2}$$ are the eigenvalues (i.e the invariants) of $$\bf H $$.
 The first thing to notice is that we can decompose a symmetric rank two tensor into a isotropic part and a symmetric traceless part i.e $$ H_{ij} = \frac{H_{kk}}{d} \delta_{ij} + T_{ij} $$. Which simplifies our expression to 
 
 $$
-f_{d}({\bf H}) = e^{H_{kk}/d} \int e^{T_{ij} n_{i} n_{j}} \frac{d\Omega^d_{\bf n}}{S_{d}} = e^{H_{kk}/d} f_{2}({\bf T})
+f_{d}({\bf H}) = e^{H_{kk}/d} \int e^{T_{ij} n_{i} n_{j}} \frac{d\Omega^d_{\bf n}}{S_{d}} = e^{H_{kk}/d} f_{d}({\bf T})
 $$ 
 
 
