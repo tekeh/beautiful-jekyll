@@ -44,9 +44,9 @@ To evaluate the coefficients is fairly easy, we merely choose any easy to calcul
 $$
 \begin{equation}
 \begin{aligned}
-	 \int n_{1} n_{1} ...n_{1} n_{1} \frac{d \Omega_n}{2 \pi} &= m^{-1} \mathcal{A}_{2m} \begin{pmatrix} 2m \\ 2 \end{pmatrix} \\
+	 \int n_{1} n_{1} ...n_{1} n_{1} \frac{d \Omega_n}{2 \pi} &= \mathcal{A}_{2m} \frac{(2m)!}{2^m m!} \\
 		&= \int ( \cos \theta)^{2m} \frac{d\theta}{2\pi} \\
-		 \implies \mathcal{A}_{2m} = \frac{m}{2^{2m}} \frac{ \begin{pmatrix} 2m \\ m \end{pmatrix}  }{\begin{pmatrix} 2m \\ 2 \end{pmatrix} } \\
+		 \implies \mathcal{A}_{2m} = \frac{1}{2^m m!} \\
 \end{aligned}
 \end{equation}
 $$
@@ -73,13 +73,13 @@ $$
 \end{equation}
 $$
 
-This can also be done in a very systematic by taylor expanding the integrand $$( c = \vert {\bf c} \vert)$$.
+This can also be done in a systematic way by taylor expanding the integrand $$( c = \vert {\bf c} \vert)$$.
 
 $$
 \begin{equation}
 \begin{aligned}
 	\langle e^{\bf{ c \cdot n}} \rangle  	&= \sum_k \frac{1}{k!} f_{\Pi_k} \\
-			&= \sum_k \frac{1}{k!} \frac{1}{2^{k+1}} \begin{pmatrix} k \\ k/2 \end{pmatrix} (c^2)^k \\
+			&= \sum_{l=0} \frac{1}{(2l)!} \frac{1}{2^{k+1}} \begin{pmatrix} k \\ k/2 \end{pmatrix} (c^2)^k \\
 			&= \frac{1}{2} \sum_{l =  0}^{\infty} \frac{1}{(l!)^2} (c/2) ^{2l}  = I_0( c ) \\
 \end{aligned}
 \end{equation}
