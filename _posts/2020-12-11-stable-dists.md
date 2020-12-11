@@ -2,7 +2,7 @@
 layout: post
 title: Stable Distributions
 image: /img/hello_world.jpeg
-tags: []
+tags: probability, statistics
 math: true
 ---
 
