@@ -7,6 +7,151 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Circumventing Bias</title>
+        <description>
+          
+          Suppose you have a coin which has probability of giving heads when it is flipped. If then the coin is called biased. Despite the biased nature of the coin, it is still possible to use it to generate fair “flips”. Consider flipping the coin twice, independently. The sample space with...
+        </description>
+        <pubDate>Sun, 27 Dec 2020 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2020-12-27-removing-bias/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-12-27-removing-bias/</guid>
+      </item>
+    
+      <item>
+        <title>Stable Distributions</title>
+        <description>
+          
+          From Wikipedia: “Let and be independent copies of a random variable . Then is said to be stable if for any constants and the random variable has the same distribution as for some constants and .” And the distribution of X is called a stable distribution. Under convolution, these distributions...
+        </description>
+        <pubDate>Fri, 11 Dec 2020 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2020-12-11-stable-dists/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-12-11-stable-dists/</guid>
+      </item>
+    
+      <item>
+        <title>Partition Function Level Sets</title>
+        <description>
+          
+          Suppose I want to find a which satisfies the following sort of equation: where is a constant and is a known real function of the parameters . How might I do so? Here we present one possible approximate route, and briefly analyse the resulting equation. If the exponent has a...
+        </description>
+        <pubDate>Sat, 21 Nov 2020 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2020-11-21-monge-ampere/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-11-21-monge-ampere/</guid>
+      </item>
+    
+      <item>
+        <title>Entropy post XOR</title>
+        <description>
+          
+          The XOR of two bit strings is a fundamental operation in computational logic and cryptography. For example, when implementing a One Time Pad, we encode a message and secret key as bytes and XOR both of these together. A fundamental fact often used is that the result of a completely...
+        </description>
+        <pubDate>Sun, 19 Jul 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2020-07-19-entropy-post-XOR/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-07-19-entropy-post-XOR/</guid>
+      </item>
+    
+      <item>
+        <title>Fluctuations and Rheology (1) - Eshelby and Force Balance</title>
+        <description>
+          
+          As a material undergoes a yocal yielding event, the stress redistribution is known to take the form of the Eshelby propogator. This is a quadropolar field decaying in distance as from the point of yield, and was first rationalised within the framework of linear elasticty by Eshelby in 1957. Explicitely...
+        </description>
+        <pubDate>Fri, 26 Jun 2020 05:22:51 -0700</pubDate>
+        <link>http://localhost:4000/2020-06-26-eshelby_force_balance/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-06-26-eshelby_force_balance/</guid>
+      </item>
+    
+      <item>
+        <title>Fluctuations and Rheology (2) - KEP and Force Balance</title>
+        <description>
+          
+          This post is builds on the arguments of the previous ones in this series. Start here. Within the continuum elastic framework, there is a clear idea of force balance, and a clear mathmematical manifestation. In particular, in a previous post, we showed that the the standard Eshelby redistribution kernel is...
+        </description>
+        <pubDate>Fri, 26 Jun 2020 05:20:15 -0700</pubDate>
+        <link>http://localhost:4000/2020-06-26-KEP_force_balance/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-06-26-KEP_force_balance/</guid>
+      </item>
+    
+      <item>
+        <title>The Replica Method</title>
+        <description>
+          
+          Systems with some sort of disorder require special methods to deal with, even in the context of equilibrium systems. The free energy contains all information on the systems equilibrium phase behaviour, and in the framework of statistical physics this can be written in terms of the partition function . Where...
+        </description>
+        <pubDate>Tue, 23 Jun 2020 00:35:15 -0700</pubDate>
+        <link>http://localhost:4000/2020-06-23-replica-symmetry/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-06-23-replica-symmetry/</guid>
+      </item>
+    
+      <item>
+        <title>SVD and PDEs</title>
+        <description>
+          
+          
+
+
+        </description>
+        <pubDate>Tue, 23 Jun 2020 00:35:10 -0700</pubDate>
+        <link>http://localhost:4000/2020-06-23-template/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-06-23-template/</guid>
+      </item>
+    
+      <item>
+        <title>Tensors with Discrete Symmetries</title>
+        <description>
+          
+          Suppose we have a collection of interacting particles, but their interactions are anisotopic. Such a situation is common in nature, as must real things are not featureless spheres, and have interactions which will depends on their relative orientation. From polymers, to liquid crystals, to synthetic pacthed particles and more, anisotropy...
+        </description>
+        <pubDate>Mon, 16 Mar 2020 02:26:18 -0700</pubDate>
+        <link>http://localhost:4000/2020-03-16-discrete-symmetry-tensors/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-03-16-discrete-symmetry-tensors/</guid>
+      </item>
+    
+      <item>
+        <title>Plastic Events and Resets</title>
+        <description>
+          
+          Imagine a stochastic reset of a certain type. Each site of our rheologicla material has a stress associtaed with it, but due to mechanical noise (rather than thermal fluctations) the stress at each site is going to fluctuate according to some effective Stochastic ODE i.e for each site (assuming they...
+        </description>
+        <pubDate>Tue, 03 Mar 2020 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2020-03-03-resetting-basics/</link>
+        <guid isPermaLink="true">http://localhost:4000/2020-03-03-resetting-basics/</guid>
+      </item>
+    
+      <item>
+        <title>Informational Capacity bounding Physical Fluctuations</title>
+        <description>
+          
+          Part 1 : Background We wish to send some information, say a string of 1’s and 0’s, across a chennel. However this channel is subject to noise, there is no guarantee that the bits we send are preserved. Despite this we might imagine that we could, in general still send...
+        </description>
+        <pubDate>Sat, 21 Dec 2019 03:50:35 -0800</pubDate>
+        <link>http://localhost:4000/2019-12-21-capacity-bounds-on-correlators/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-12-21-capacity-bounds-on-correlators/</guid>
+      </item>
+    
+      <item>
+        <title>Brownian Ring</title>
+        <description>
+          
+          Suppose we have a Brownian Motion on a ring. The stochastic differential equation can be written in the angular coordinate as Where is a non-random constant and is a Weiner process (White gaussian noise). What is the probability that takes some certain value when evolving under this dynamics? We can...
+        </description>
+        <pubDate>Sat, 21 Dec 2019 01:08:14 -0800</pubDate>
+        <link>http://localhost:4000/2019-12-21-brownian-ring/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-12-21-brownian-ring/</guid>
+      </item>
+    
+      <item>
+        <title>Integrals over Solid Angles (Part 2)</title>
+        <description>
+          
+          In a previous post we considered averaging quantities built from tensors over all angles. We know wish to extend the ideas in that post to integrals of the form where is a second rank tensor, symmetric without loss of generality. Ideally, we would like to reason what the solution looks...
+        </description>
+        <pubDate>Tue, 17 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2019-12-17-angular-averaged-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019-12-17-angular-averaged-2/</guid>
+      </item>
+    
+      <item>
         <title>Integrals over Solid Angles</title>
         <description>
           
@@ -73,17 +218,6 @@
       </item>
     
       <item>
-        <title>Curl Forces in Cyclic Protocols</title>
-        <description>
-          
-          Suppose we have the followinf Fokker plank equation in a confined system assuming a zero flux in space (from confinement) we can write straight away the equation We can decompose any vector field into a curl-free and divergence components i.e . We can similarly solve Eq \ref{eqn:FP} by splitting for...
-        </description>
-        <pubDate>Sun, 31 Mar 2019 10:27:50 -0700</pubDate>
-        <link>http://localhost:4000/2019-03-31-work-curl-forces/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-03-31-work-curl-forces/</guid>
-      </item>
-    
-      <item>
         <title>Thermal Beads</title>
         <description>
           
@@ -92,140 +226,6 @@
         <pubDate>Fri, 22 Mar 2019 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2019-03-22-thermal-beads/</link>
         <guid isPermaLink="true">http://localhost:4000/2019-03-22-thermal-beads/</guid>
-      </item>
-    
-      <item>
-        <title>Stress Functions</title>
-        <description>
-          
-          In this post we’ll discuss a certain description of stresses in 2D mechanical systems, which has proved useful in the study of granular systems and other such packings in mechanical equilibrium. It is called the Airy stress function , . Consider the stress tensor of an arbitrary 2D system which...
-        </description>
-        <pubDate>Fri, 22 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019-03-22-stress-functions/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-03-22-stress-functions/</guid>
-      </item>
-    
-      <item>
-        <title>Optimal Finite Time Processes for Active Brownian Processes</title>
-        <description>
-          
-          The Fokker Plank is The work done on the system in time is simply Where are the controllable parameters. Following Seifert, we first consider two special cases Example 1: Translational Harmonic Trap Call and . The work becomes Multiplying by x in Eq \ref{eqn:fp} and averaging gives the relation ....
-        </description>
-        <pubDate>Thu, 07 Mar 2019 02:19:42 -0800</pubDate>
-        <link>http://localhost:4000/2019-03-07-active-finite-time/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-03-07-active-finite-time/</guid>
-      </item>
-    
-      <item>
-        <title>Message passing d-dim</title>
-        <description>
-          
-          Previously, a loose connection between informational message passing and ordering in 1D ising spin chains was discussed. We left of wondering about the connection to higher dimensional spin systems. Hypercubic Lattice Using the previous considerations it’s possible to bound the position of the phase transition. suppose we are links away...
-        </description>
-        <pubDate>Thu, 07 Mar 2019 02:18:28 -0800</pubDate>
-        <link>http://localhost:4000/2019-03-07-message-passing-d-dim/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-03-07-message-passing-d-dim/</guid>
-      </item>
-    
-      <item>
-        <title>Title</title>
-        <description>
-          
-          
-
-
-        </description>
-        <pubDate>Thu, 07 Mar 2019 02:17:26 -0800</pubDate>
-        <link>http://localhost:4000/2019-03-07-template/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-03-07-template/</guid>
-      </item>
-    
-      <item>
-        <title>Ginzburg for Levy Flight Rheology</title>
-        <description>
-          
-          See this previous post for a description of the physical set up and problem to be investigated. Approaches The mean field arguments and models siplify a calculation by ignoring the spatial structure present. To consider the effect of spatial information, we can introduce small, position dependent fluctuations and see how...
-        </description>
-        <pubDate>Mon, 04 Mar 2019 12:53:06 -0800</pubDate>
-        <link>http://localhost:4000/2019-03-04-ginzburg-levy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-03-04-ginzburg-levy/</guid>
-      </item>
-    
-      <item>
-        <title>Title</title>
-        <description>
-          
-          Basic Model Imagine a stochastic reset of a certain type. Each site of our rheologicla material has a stress associtaed with it, but due to mechanical noise (rather than thermal fluctations) the stress at each site is going to fluctuate according to some effective Stochastic ODE. I.e for each site...
-        </description>
-        <pubDate>Thu, 21 Feb 2019 03:10:46 -0800</pubDate>
-        <link>http://localhost:4000/2019-02-21-resets/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-02-21-resets/</guid>
-      </item>
-    
-      <item>
-        <title>Rheology with Levy Flights</title>
-        <description>
-          
-          Premise I recently came across a paper which investigates rheological properties of a material using a stochastic Levy flight process. To construct this mean field theory, it first starts by considering discretised space, with each cell/block/site taking some local stress value . As the elastic system undergoes relaxation, or local...
-        </description>
-        <pubDate>Thu, 21 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2019-02-21-rheology-levy/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-02-21-rheology-levy/</guid>
-      </item>
-    
-      <item>
-        <title>Gaussian Mixtures</title>
-        <description>
-          
-          Arguably one of the simplest, nicest to work with distributions is that of a Gaussian. Within the field of stochastic ODEs, the common stochastic noise (the Weiner process) is simply a Guassian distributed point process. But depending on the system in question, a systems noise could be distributed differently. Some...
-        </description>
-        <pubDate>Fri, 15 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2019-02-15-gaussian-mixture/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-02-15-gaussian-mixture/</guid>
-      </item>
-    
-      <item>
-        <title>topic ideas</title>
-        <description>
-          
-          Roughly in order of interest. There are other things of interest but these are just possible projects/vague directions i could identify Upper Critical Dimension (UCD) for Mean Field Rheological Models Background Jie Lin and Wyart published Mean Field Description of Plastic Flow in Amorphous Solids , where they calculated an...
-        </description>
-        <pubDate>Wed, 13 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2019-02-13-topics/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-02-13-topics/</guid>
-      </item>
-    
-      <item>
-        <title>ABP pdf</title>
-        <description>
-          
-          This is a calculation to determine the probability density of non-interacting, elliptical ABPs in a harmonic box trap. The Fokker Plank (FP) is In the wall: Assume Boltzmann weighted In bulk () use a series solution Where we’ve used the symmetry about centre of the box. Continuity of spatially leads...
-        </description>
-        <pubDate>Mon, 04 Feb 2019 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2019-02-04-notepad_rough/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-02-04-notepad_rough/</guid>
-      </item>
-    
-      <item>
-        <title>Title</title>
-        <description>
-          
-          Suppose we have a Brownian Motion on a ring. The stochastic differential equation can be written in the angular coordinate as Where is a non-random constant and is a Weiner process (White gaussian noise). What is the probability that takes some certain value when evolving under this dynamics? We can...
-        </description>
-        <pubDate>Wed, 30 Jan 2019 09:09:47 -0800</pubDate>
-        <link>http://localhost:4000/2019-01-30-brownian-ring/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-01-30-brownian-ring/</guid>
-      </item>
-    
-      <item>
-        <title>Classical Analogue of Spin through Differential Geometry</title>
-        <description>
-          
-          Some features of quantum physics, at a passing glance, seem analogous to some corresponding classical system from a phenomenological point of view. Others aspects are free of any classical analogue for us to exploit for intuition. The dynamics of a quantum spin is often an example of a non intuitive...
-        </description>
-        <pubDate>Tue, 18 Dec 2018 12:20:58 -0800</pubDate>
-        <link>http://localhost:4000/2018-12-18-classical-analogue-of-spin/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018-12-18-classical-analogue-of-spin/</guid>
       </item>
     
   </channel>
