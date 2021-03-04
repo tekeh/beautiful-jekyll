@@ -70,6 +70,8 @@
   
 
   
+  <meta property="og:image" content="http://localhost:4000/img/portrait.jpeg" />
+  
 
 
   <!-- Twitter summary cards -->
@@ -85,6 +87,8 @@
   <meta name="twitter:description" content="{%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag in tags_list -%} &amp;nbsp;{{- tag -}}&amp;nbsp;({{site.tags[tag].size}}) {%- endfor -%} {%- for...">
   
 
+  
+  <meta name="twitter:image" content="http://localhost:4000/img/portrait.jpeg" />
   
 
   
@@ -127,9 +131,31 @@
           </li>
         
         
+        
+          <li>
+            
+
+
+
+
+
+
+<a href="/blog">Blog</a>
+
+          </li>
+        
+        
       </ul>
     </div>
 
+	
+	<div class="avatar-container">
+	  <div class="avatar-img-border">
+	    <a href="http://localhost:4000 ">
+	      <img class="avatar-img" src="/img/portrait.jpeg" />
+		</a>
+	  </div>
+	</div>
 	
 
   </div>
@@ -166,7 +192,7 @@
 <div class="container" role="main">
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      <a href="#" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;&nbsp;()</a><a href="#approximation" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;approximation&nbsp;(1)</a><a href="#calculation methods" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;calculation methods&nbsp;(1)</a><a href="#classical mechanics" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;classical mechanics&nbsp;(3)</a><a href="#cryptography" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;cryptography&nbsp;(1)</a><a href="#differential geometry" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;differential geometry&nbsp;(1)</a><a href="#information theory" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;information theory&nbsp;(3)</a><a href="#linear algebra" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;linear algebra&nbsp;(1)</a><a href="#paper summary" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;paper summary&nbsp;(1)</a><a href="#probability" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;probability&nbsp;(5)</a><a href="#probability" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;probability&nbsp;(5)</a><a href="#quantum mechanics" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;quantum mechanics&nbsp;(2)</a><a href="#rheology" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;rheology&nbsp;(4)</a><a href="#statistical physics" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;statistical physics&nbsp;(6)</a><a href="#statistics" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;statistics&nbsp;(3)</a><a href="#stochastic processes" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;stochastic processes&nbsp;(4)</a><a href="#stub" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;stub&nbsp;(1)</a><a href="#tag2" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;tag2&nbsp;(2)</a><a href="#tensors" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;tensors&nbsp;(1)</a><a href="#thermodynamics" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;thermodynamics&nbsp;(2)</a><div id="full-tags-list"><h2 id="" class="linked-section">
+      <a href="#" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;&nbsp;()</a><a href="#approximation" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;approximation&nbsp;(1)</a><a href="#calculation methods" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;calculation methods&nbsp;(1)</a><a href="#classical mechanics" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;classical mechanics&nbsp;(3)</a><a href="#cryptography" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;cryptography&nbsp;(1)</a><a href="#differential geometry" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;differential geometry&nbsp;(1)</a><a href="#information theory" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;information theory&nbsp;(3)</a><a href="#linear algebra" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;linear algebra&nbsp;(1)</a><a href="#paper summary" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;paper summary&nbsp;(1)</a><a href="#probability" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;probability&nbsp;(6)</a><a href="#probability" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;probability&nbsp;(6)</a><a href="#quantum mechanics" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;quantum mechanics&nbsp;(2)</a><a href="#rheology" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;rheology&nbsp;(4)</a><a href="#statistical physics" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;statistical physics&nbsp;(6)</a><a href="#statistics" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;statistics&nbsp;(3)</a><a href="#stochastic processes" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;stochastic processes&nbsp;(4)</a><a href="#stub" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;stub&nbsp;(1)</a><a href="#tag2" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;tag2&nbsp;(2)</a><a href="#tensors" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;tensors&nbsp;(1)</a><a href="#thermodynamics" class="btn btn-primary tag-btn"><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;thermodynamics&nbsp;(2)</a><div id="full-tags-list"><h2 id="" class="linked-section">
         <i class="fa fa-tag" aria-hidden="true"></i>
         &nbsp;&nbsp;()
     </h2>
@@ -230,14 +256,14 @@
         &nbsp;information theory&nbsp;(3)
     </h2>
     <div class="post-list"><div class="tag-entry">
+                <a href="http://localhost:4000/2021-02-19-message-passing-d-dim/">Message passing d-dim</a>
+                <div class="entry-date">
+                    <time datetime="2021-02-19T09:16:49-08:00">February 19, 2021</time>
+                </div>
+            </div><div class="tag-entry">
                 <a href="http://localhost:4000/2019-12-21-capacity-bounds-on-correlators/">Informational Capacity bounding Physical Fluctuations</a>
                 <div class="entry-date">
                     <time datetime="2019-12-21T03:50:35-08:00">December 21, 2019</time>
-                </div>
-            </div><div class="tag-entry">
-                <a href="http://localhost:4000/2019-03-07-message-passing-d-dim/">Message passing d-dim</a>
-                <div class="entry-date">
-                    <time datetime="2019-03-07T02:18:28-08:00">March 07, 2019</time>
                 </div>
             </div><div class="tag-entry">
                 <a href="http://localhost:4000/2018-12-01-message-passing-1d/">Message Passing in 1D</a>
@@ -264,9 +290,14 @@
                 </div>
             </div></div><h2 id="probability" class="linked-section">
         <i class="fa fa-tag" aria-hidden="true"></i>
-        &nbsp;probability&nbsp;(5)
+        &nbsp;probability&nbsp;(6)
     </h2>
     <div class="post-list"><div class="tag-entry">
+                <a href="http://localhost:4000/2021-01-01-random-decreasing-seq/">Random Decreasing Sequence</a>
+                <div class="entry-date">
+                    <time datetime="2021-01-01T00:00:00-08:00">January 01, 2021</time>
+                </div>
+            </div><div class="tag-entry">
                 <a href="http://localhost:4000/2020-12-27-removing-bias/">Circumventing Bias</a>
                 <div class="entry-date">
                     <time datetime="2020-12-27T00:00:00-08:00">December 27, 2020</time>
@@ -293,9 +324,14 @@
                 </div>
             </div></div><h2 id="probability" class="linked-section">
         <i class="fa fa-tag" aria-hidden="true"></i>
-        &nbsp;probability&nbsp;(5)
+        &nbsp;probability&nbsp;(6)
     </h2>
     <div class="post-list"><div class="tag-entry">
+                <a href="http://localhost:4000/2021-01-01-random-decreasing-seq/">Random Decreasing Sequence</a>
+                <div class="entry-date">
+                    <time datetime="2021-01-01T00:00:00-08:00">January 01, 2021</time>
+                </div>
+            </div><div class="tag-entry">
                 <a href="http://localhost:4000/2020-12-27-removing-bias/">Circumventing Bias</a>
                 <div class="entry-date">
                     <time datetime="2020-12-27T00:00:00-08:00">December 27, 2020</time>
@@ -363,6 +399,11 @@
         &nbsp;statistical physics&nbsp;(6)
     </h2>
     <div class="post-list"><div class="tag-entry">
+                <a href="http://localhost:4000/2021-02-19-message-passing-d-dim/">Message passing d-dim</a>
+                <div class="entry-date">
+                    <time datetime="2021-02-19T09:16:49-08:00">February 19, 2021</time>
+                </div>
+            </div><div class="tag-entry">
                 <a href="http://localhost:4000/2020-03-03-resetting-basics/">Plastic Events and Resets</a>
                 <div class="entry-date">
                     <time datetime="2020-03-03T00:00:00-08:00">March 03, 2020</time>
@@ -371,11 +412,6 @@
                 <a href="http://localhost:4000/2019-12-21-capacity-bounds-on-correlators/">Informational Capacity bounding Physical Fluctuations</a>
                 <div class="entry-date">
                     <time datetime="2019-12-21T03:50:35-08:00">December 21, 2019</time>
-                </div>
-            </div><div class="tag-entry">
-                <a href="http://localhost:4000/2019-03-07-message-passing-d-dim/">Message passing d-dim</a>
-                <div class="entry-date">
-                    <time datetime="2019-03-07T02:18:28-08:00">March 07, 2019</time>
                 </div>
             </div><div class="tag-entry">
                 <a href="http://localhost:4000/2019-03-04-ginzburg-levy/">Ginzburg for Levy Flight Rheology</a>
@@ -515,7 +551,7 @@
       <p class="copyright text-muted">
       Timothy C. Ekeh
       &nbsp;&bull;&nbsp;
-      2020
+      2021
 
       
       &nbsp;&bull;&nbsp;

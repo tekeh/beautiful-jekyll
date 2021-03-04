@@ -7,6 +7,39 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Message passing d-dim</title>
+        <description>
+          
+          Previously, a loose connection between informational message passing and ordering in 1D ising spin chains was discussed. We left of wondering about the connection to higher dimensional spin systems. Hypercubic Lattice Using the previous considerations it’s possible to bound the position of the phase transition. suppose we are links away...
+        </description>
+        <pubDate>Fri, 19 Feb 2021 09:16:49 -0800</pubDate>
+        <link>http://localhost:4000/2021-02-19-message-passing-d-dim/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-02-19-message-passing-d-dim/</guid>
+      </item>
+    
+      <item>
+        <title>Funky Symplectics</title>
+        <description>
+          
+          Hamiltonian mechanics occurs on a symplectic manifold, but what does that mean? Well, it means that the manifold created by the coordinate variables is equipped with a differential two-form. Let’s zoom in on this. The canonical coordinates for a mechanical system are denoted by where are the generalised coordinates and...
+        </description>
+        <pubDate>Fri, 01 Jan 2021 10:41:34 -0800</pubDate>
+        <link>http://localhost:4000/2021-01-01-overdamped-motion/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-01-01-overdamped-motion/</guid>
+      </item>
+    
+      <item>
+        <title>Random Decreasing Sequence</title>
+        <description>
+          
+          Suppose we have a decreasing sequence defined in the following way. First consider a random number generator that takes a non-negative integer, , as input and returns one of , the choice being made uniformly at random. Now pick some integer and define a sequence of by the recurrence relation:...
+        </description>
+        <pubDate>Fri, 01 Jan 2021 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2021-01-01-random-decreasing-seq/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-01-01-random-decreasing-seq/</guid>
+      </item>
+    
+      <item>
         <title>Circumventing Bias</title>
         <description>
           
@@ -193,39 +226,6 @@
         <pubDate>Fri, 03 May 2019 06:04:05 -0700</pubDate>
         <link>http://localhost:4000/2019-05-03-absorbing-state/</link>
         <guid isPermaLink="true">http://localhost:4000/2019-05-03-absorbing-state/</guid>
-      </item>
-    
-      <item>
-        <title>Stochastic Search</title>
-        <description>
-          
-          aaa A basic sort of computatinla problem is that of searching for a specific elemnt within a larger list of elements Many algorithms exist to complete this task, but here we will investigate the usefulness of a certain type of Stochastic Search Algorithm which are algorithms which make use of...
-        </description>
-        <pubDate>Wed, 03 Apr 2019 07:01:55 -0700</pubDate>
-        <link>http://localhost:4000/2019-04-03-stochastic-resonance/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-04-03-stochastic-resonance/</guid>
-      </item>
-    
-      <item>
-        <title>Active Energetics (in progress)</title>
-        <description>
-          
-          Let us call the ABP potential function. This can take various forms depending on the model. Let’s impose that and its derivative is zero at the wall for all The steady state Fokker Plank equation for this system is then Even without the active propulsion, there is still some peculiarity...
-        </description>
-        <pubDate>Mon, 01 Apr 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019-04-01-active-energetics/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-04-01-active-energetics/</guid>
-      </item>
-    
-      <item>
-        <title>Thermal Beads</title>
-        <description>
-          
-          A simple calculation to help me understand something larger. Suppose there are two beads in between two parallel walls which can move in one dimension perpendicular to the plane of the walls. They are connected together by elastic spring with strength , and each is further connected to the wall...
-        </description>
-        <pubDate>Fri, 22 Mar 2019 00:00:00 -0700</pubDate>
-        <link>http://localhost:4000/2019-03-22-thermal-beads/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-03-22-thermal-beads/</guid>
       </item>
     
   </channel>
