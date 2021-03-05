@@ -7,6 +7,17 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Funky Symplectics</title>
+        <description>
+          
+          Hamiltonian mechanics occurs on a symplectic manifold, but what does that mean? Well, it means that the manifold created by the coordinate variables is equipped with a differential two-form. Let’s zoom in on this. The canonical coordinates for a mechanical system are denoted by where are the generalised coordinates and...
+        </description>
+        <pubDate>Fri, 05 Mar 2021 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2021-03-05-funky-symplectics/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-03-05-funky-symplectics/</guid>
+      </item>
+    
+      <item>
         <title>Message passing d-dim</title>
         <description>
           
@@ -15,17 +26,6 @@
         <pubDate>Fri, 19 Feb 2021 09:16:49 -0800</pubDate>
         <link>http://localhost:4000/2021-02-19-message-passing-d-dim/</link>
         <guid isPermaLink="true">http://localhost:4000/2021-02-19-message-passing-d-dim/</guid>
-      </item>
-    
-      <item>
-        <title>Funky Symplectics</title>
-        <description>
-          
-          Hamiltonian mechanics occurs on a symplectic manifold, but what does that mean? Well, it means that the manifold created by the coordinate variables is equipped with a differential two-form. Let’s zoom in on this. The canonical coordinates for a mechanical system are denoted by where are the generalised coordinates and...
-        </description>
-        <pubDate>Fri, 01 Jan 2021 10:41:34 -0800</pubDate>
-        <link>http://localhost:4000/2021-01-01-overdamped-motion/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-01-01-overdamped-motion/</guid>
       </item>
     
       <item>
