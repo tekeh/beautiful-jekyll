@@ -44,10 +44,10 @@ $$
 and a velocity vector field using our canonical coordinates by
 
 $$
-v = \dot q_i \frac{\partial}{\partial q_i} + \dot p_i \frac{\partial}{\partial p_i}
+v = \xi_{\alpha} \frac{\partial}{\partial \xi_{\alpha}} = \dot q_i \frac{\partial}{\partial q_i} + \dot p_i \frac{\partial}{\partial p_i}
 $$
 
-Then the hamiltonian flov can be written by
+Then the hamiltonian flow can be written by
 
 $$ \label{eq:differential-hamiltonian-flow} \tag{1}
 dH = - \omega(v, )
@@ -62,7 +62,7 @@ $$
 \end{pmatrix}
 $$
 
-Within differential geometry there exists a natural volume element, derived from the symplectic form $$\omega^n/n! = \det(\tilde\omega) \bigwedge_{i=1}^n dp^i \wedge dq^i $$. This volume form (which describes a volume in phase space) is _invariant_. This is a recasting of Liouvelle's theorem, which says that phase space volumes are incompressible and evolve analogously to an incompressible fluid.
+Within differential geometry there exists a natural volume element, derived from the symplectic form $$\omega^n/n! = \sqrt{\det(\tilde\omega)} \bigwedge_{i=1}^n dp^i \wedge dq^i $$. This volume form (which describes a volume in phase space) is _invariant_. This is a recasting of Liouvelle's theorem, which says that phase space volumes are incompressible and evolve analogously to an incompressible fluid.
 
 All of the above is a recasting of the Hamiltoniain framework. However, not that we have this recasting we can imagine how it can be extended naturally. Hamilton's equations of motion are great, and they can describe a great many systems, but their form is restrictive. It is impossible to represent certain types of forces in the vanilla framework. This is fine - in such cases we would typicaly work on the level of the equations of motion without any cosideration of a Hamiltonian or symplectic manifold. But the Hamiltonian formalism is quite a nice tool, and there are strong theorems attached to it (Liouvelle). As well as that there exists great tools for analysing symmetry within it (Noether, or whatever is to Hamiltonians what Noether is to Lagrangians). So maybe there is a way to use Hamiltonians in more peculiar situations?
 
@@ -90,6 +90,10 @@ $$
 Cool.
 
 This will be applied to something in the future.
+
+**[References]**
+
+[https://arxiv.org/pdf/cond-mat/0506051.pdf](https://arxiv.org/pdf/cond-mat/0506051.pdf)
 
 [//]: # Now for an application - an underdamped system  in 1-dim obeys the following ODE
 [//]: # 
