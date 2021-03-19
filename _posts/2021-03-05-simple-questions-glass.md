@@ -45,6 +45,8 @@ $$
 
 Now suppose we calculate the _excess entropy_ of a liquid compared to the solid phase. If we plot $$\mathcal{S}_{\rm exc}$$ vs $$T$$, and extend the the line past the glass transition temperature, this excess entropy vanishes at some $$T_K$$ (Kauzmann temperature) $$\approx T_0$$. The correlation isn't perfect, there can be differences of up to 20%, but they are a lot closer a lot of the time. So there seems to be some link between thermodynamics ($$T_k$$) and dynamics $$T_0$$.
 
+**2** The specific heat is (nearly) discontinuous at $$T_K$$
+
 **But what is the thermodynamic order parameter?**
 
 Unknown!
@@ -68,6 +70,13 @@ F({\bf q}, t) = N^{-1} \langle \rho_{\bf q}(t) \rho_{\bf -q}(0) \rangle
 $$
 
 although other dynamical probes are possible, such as the dielectric susceptibility.
+
+**What is the mode coupling temperature?**
+
+The temperature below which the free energy landscape fragments inty many local minima corresponding to metastable amorphous states. Above $$T_{\rm MCT}$$ there is a single minimum in the free energy. Many theories predict that the free energy s analytic at this temperature (and people seem to take this as strong evidence that it is indeed true for real systems).
+
+**WHat is dynamical facilitation?**
+Dynamic facilitation is the process whereby relaxation of a local region in a glassy system enables another local region to subsequently move and relax. This facilitation can be long ranged at low temperatures, but people debate why.
 
 _This is constantly updated. Last edit: 050321_
 
