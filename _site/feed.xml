@@ -7,14 +7,25 @@
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Funky Symplectics</title>
+        <title>Hamiltonian Curl Forces</title>
         <description>
           
-          Hamiltonian mechanics occurs on a symplectic manifold, but what does that mean? Well, it means that the manifold created by the coordinate variables is equipped with a differential two-form. Let’s zoom in on this. The canonical coordinates for a mechanical system are denoted by where are the generalised coordinates and...
+          It is known that conservative force, defined as those which are the gradient of a scalar function, are curl free. This is a consequence of basic vector calculus The motion of a particle under conservative motion (motion arising under the action of a conservative force) can equally be described in...
         </description>
-        <pubDate>Fri, 05 Mar 2021 00:00:00 -0800</pubDate>
-        <link>http://localhost:4000/2021-03-05-funky-symplectics/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-03-05-funky-symplectics/</guid>
+        <pubDate>Thu, 08 Apr 2021 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/2021-04-08-curl-forces/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-04-08-curl-forces/</guid>
+      </item>
+    
+      <item>
+        <title>What falls under &quot;Hamiltonian&quot;?</title>
+        <description>
+          
+          In a previous post we had detailed how one might extend the class of dynamical systems that could be called Hamiltonian by replacing the standard symplectic form by one more general. If our symplectic form is represented by the matrix Then the associated equations of motion described by the Hamiltonian...
+        </description>
+        <pubDate>Fri, 26 Mar 2021 07:48:03 -0700</pubDate>
+        <link>http://localhost:4000/2021-03-26-extended-hamiltonian/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-03-26-extended-hamiltonian/</guid>
       </item>
     
       <item>
@@ -23,9 +34,31 @@
           
           Previously, a loose connection between informational message passing and ordering in 1D ising spin chains was discussed. We left of wondering about the connection to higher dimensional spin systems. Hypercubic Lattice Using the previous considerations it’s possible to bound the position of the phase transition. suppose we are links away...
         </description>
-        <pubDate>Fri, 19 Feb 2021 09:16:49 -0800</pubDate>
-        <link>http://localhost:4000/2021-02-19-message-passing-d-dim/</link>
-        <guid isPermaLink="true">http://localhost:4000/2021-02-19-message-passing-d-dim/</guid>
+        <pubDate>Mon, 08 Mar 2021 02:45:49 -0800</pubDate>
+        <link>http://localhost:4000/2021-03-08-message-passing-d-dim/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-03-08-message-passing-d-dim/</guid>
+      </item>
+    
+      <item>
+        <title>Simple Questions about Difficult Topics (Glasses - in progress)</title>
+        <description>
+          
+          It is hard to navigate a complex field with tons of literature, to both learn about the previous investigations and note where the gaps are. It is also hard to ask good questions that will yield fruitful discussions. So instead I will ask bad questions, and hope something useful is...
+        </description>
+        <pubDate>Fri, 05 Mar 2021 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2021-03-05-simple-questions-glass/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-03-05-simple-questions-glass/</guid>
+      </item>
+    
+      <item>
+        <title>Funky Symplectics</title>
+        <description>
+          
+          Hamiltonian mechanics occurs on a symplectic manifold, but what does that mean? Well, it means that the manifold created by the coordinate variables is equipped with a differential two-form. Let’s zoom in on this. The canonical coordinates for a mechanical system are denoted by where are the generalised coordinates and...
+        </description>
+        <pubDate>Fri, 05 Mar 2021 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/2021-03-05-funky-symplectics/</link>
+        <guid isPermaLink="true">http://localhost:4000/2021-03-05-funky-symplectics/</guid>
       </item>
     
       <item>
@@ -193,39 +226,6 @@
         <pubDate>Sun, 28 Jul 2019 00:00:00 -0700</pubDate>
         <link>http://localhost:4000/2019-07-28-angular-averaged/</link>
         <guid isPermaLink="true">http://localhost:4000/2019-07-28-angular-averaged/</guid>
-      </item>
-    
-      <item>
-        <title>Hyperuniform Structure</title>
-        <description>
-          
-          Suspect Calculation Let be the total density of particles and the density of active particles. The initial model for this dynamics give Using the first equation we FT to yield Integrating up and averaging we can then get the expressions At this point we assume a scaling hypothesis of the...
-        </description>
-        <pubDate>Thu, 20 Jun 2019 08:54:23 -0700</pubDate>
-        <link>http://localhost:4000/2019-06-20-elsens-calc/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-06-20-elsens-calc/</guid>
-      </item>
-    
-      <item>
-        <title>Periodically Sheared Amorphous Systems</title>
-        <description>
-          
-          Background/Priors Periodically sheared repulsive circles undergo a few interesting Non-equilibrium/Off-equilibrium transitions Can be modelled by the following Langevin equations ( Kawasaki and Berthier ). is the periodic shear rate and U describes some interaction potential between the particles. No further hydrodynamics involved - the relaxation time of the flow field...
-        </description>
-        <pubDate>Thu, 16 May 2019 02:10:24 -0700</pubDate>
-        <link>http://localhost:4000/2019-05-16-meeting__MEC/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-05-16-meeting__MEC/</guid>
-      </item>
-    
-      <item>
-        <title>Absorbing State Transitions</title>
-        <description>
-          
-          An absorbing state (AS) is a state which can not be escaped once entered. If we imagine a Markov chain, then the absorbing state is one which has no outgoing transitions. AS transitions are an example of a non-equilibrium phase transition. In analogy to equilibrium phase transisitions, we can define...
-        </description>
-        <pubDate>Fri, 03 May 2019 06:04:05 -0700</pubDate>
-        <link>http://localhost:4000/2019-05-03-absorbing-state/</link>
-        <guid isPermaLink="true">http://localhost:4000/2019-05-03-absorbing-state/</guid>
       </item>
     
   </channel>
